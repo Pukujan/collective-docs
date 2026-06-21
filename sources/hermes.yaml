@@ -1,0 +1,37 @@
+name: hermes
+display: Hermes Agent
+homepage: "https://hermes-agent.nousresearch.com/docs"
+priority: critical
+update_frequency: daily
+retention:
+  versions: 5
+  diffs: all
+
+# NOTE: The Hermes docs site (Next.js SPA on GitHub Pages) renders most pages
+# client-side via JavaScript. Only 4 pages have static HTML output:
+#   - /
+#   - /docs (root)
+#   - /docs/getting-started/quickstart
+#   - /docs/getting-started/installation
+#   - /docs/getting-started/learning-path
+#
+# All other pages return GitHub Pages 404 when fetched without JS rendering.
+# For the other pages, we fall back to:
+# 1. The offline skill file at ~/.hermes/skills/autonomous-ai-agents/hermes-agent/SKILL.md
+# 2. The hermes-agent skill itself (load at runtime)
+#
+# Pages that DO work with static HTML (no JS required):
+pages:
+  - path: ""
+    title: "Hermes Agent — Home"
+  - path: "/docs"
+    title: "Docs — Home"
+  - path: "/docs/getting-started/quickstart"
+    title: "Quickstart"
+  - path: "/docs/getting-started/installation"
+    title: "Installation"
+  - path: "/docs/getting-started/learning-path"
+    title: "Learning Path"
+
+# For JS-dependent pages, use the skill file as well as the local offline copy
+# seeded in human/hermes/_skill-docs.md

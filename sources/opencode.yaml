@@ -1,0 +1,10 @@
+name: opencode
+display: OpenCode CLI
+homepage: "https://github.com/opencode-ai/opencode"
+priority: normal
+update_frequency: daily
+retention:
+  versions: 3
+  diffs: all
+pages: []
+# To be populated once source URL is confirmed

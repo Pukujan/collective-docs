@@ -1,0 +1,10 @@
+name: deepseek
+display: DeepSeek API
+homepage: "https://api-docs.deepseek.com"
+priority: critical
+update_frequency: daily
+retention:
+  versions: 5
+  diffs: all
+pages: []
+# To be populated once source URL is confirmed

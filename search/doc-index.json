@@ -1,0 +1,44 @@
+[
+  {
+    "source": "hermes",
+    "path": "hermes/_skill-docs",
+    "title": "Hermes Agent",
+    "file": "agent\\hermes\\_skill-docs.md",
+    "char_count": 45856
+  },
+  {
+    "source": "hermes",
+    "path": "hermes/docs-getting-started-installation",
+    "title": "Installation",
+    "file": "agent\\hermes\\docs-getting-started-installation.md",
+    "char_count": 8360
+  },
+  {
+    "source": "hermes",
+    "path": "hermes/docs-getting-started-learning-path",
+    "title": "Learning Path",
+    "file": "agent\\hermes\\docs-getting-started-learning-path.md",
+    "char_count": 9603
+  },
+  {
+    "source": "hermes",
+    "path": "hermes/docs-getting-started-quickstart",
+    "title": "Quickstart",
+    "file": "agent\\hermes\\docs-getting-started-quickstart.md",
+    "char_count": 19566
+  },
+  {
+    "source": "hermes",
+    "path": "hermes/docs",
+    "title": "Docs \u2014 Home",
+    "file": "agent\\hermes\\docs.md",
+    "char_count": 6609
+  },
+  {
+    "source": "hermes",
+    "path": "hermes/index",
+    "title": "Hermes Agent \u2014 Home",
+    "file": "agent\\hermes\\index.md",
+    "char_count": 3287
+  }
+]

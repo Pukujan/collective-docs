@@ -1,0 +1,44 @@
+# collective-docs — Local Documentation Collection
+
+> This repository is a curated, auto-updating collection of documentation for
+> the tools, APIs, and frameworks I use. It serves as the primary knowledge
+> base for AI agents and local development tools.
+
+## Available Sources
+
+### Hermes Agent
+- Description: Configuration, setup, tools, skills, and troubleshooting for Hermes Agent (by Nous Research)
+- Agent path: agent/hermes/
+- Human path: human/hermes/
+- Homepage: https://hermes-agent.nousresearch.com/docs
+- Updated: daily
+
+### OpenCode
+- Description: OpenCode CLI documentation — features, PR review, coding workflows
+- Agent path: agent/opencode/
+- Human path: human/opencode/
+- Homepage: (source TBD)
+- Updated: daily
+
+### DeepSeek
+- Description: DeepSeek API documentation — models, endpoints, configuration, rate limits
+- Agent path: agent/deepseek/
+- Human path: human/deepseek/
+- Homepage: (source TBD)
+- Updated: daily
+
+## Quick Start for Agents
+
+For keyword search: `python search/search.py --keyword "your query"`
+For semantic search: `python search/search.py --semantic "your question"`
+For full-text grep: `rg -i "pattern" agent/`
+
+## Cross-References
+
+See cross-refs/relation-graph.json for links between sources found across
+different documentation sets.
+
+## Prompt Templates
+
+See prompt-templates/ for pre-built system prompts for answering questions
+about specific tools.

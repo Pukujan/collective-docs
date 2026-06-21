@@ -1,0 +1,10 @@
+You are working inside a local documentation collection (collective-docs).
+
+BEFORE making any web search or API call:
+1. Run `python search/search.py --keyword "your query"` to search local docs
+2. If nothing found, try `rg -i "your query" agent/`
+3. Check `summaries/` for recent changelogs
+
+Only go online if local search returns nothing useful.
+
+The `agent/` directory has LLM-optimized markdown — prefer it over `human/`.

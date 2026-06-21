@@ -1,0 +1,26 @@
+name: uv
+display: uv (Python Package Manager)
+homepage: "https://docs.astral.sh/uv"
+priority: high
+update_frequency: weekly
+retention:
+  versions: 3
+  diffs: all
+
+# uv docs — static HTML (Astro/Starlight). Pre-rendered, fast, ~60KB per page.
+# Essential for auto-coding agents working with Python projects.
+# ⚠️ URL NOTE: URLs in pages[] may go stale (docs restructure).
+# The local markdown in human/<name>/ and agent/<name>/ is always authoritative.
+# Use search/search.py as the primary interface:
+#   python search/search.py --keyword "query" --source <name>
+pages:
+  - path: "/"
+    title: "uv — Overview & Getting Started"
+  - path: "/getting-started/"
+    title: "Getting Started"
+  - path: "/guides/"
+    title: "Guides"
+  - path: "/pip/"
+    title: "pip Interface"
+  - path: "/pip/compile/"
+    title: "pip-compile / Locking Dependencies"

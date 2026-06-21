@@ -1,0 +1,64 @@
+---
+title: Actions Tutorials
+source: github
+url: https://docs.github.com/en/actions/tutorials
+fetched: 2026-06-21T06:40:45.872287
+---
+
+# Actions Tutorials
+
+* [GitHub Actions](/en/actions)/
+* [Tutorials](/en/actions/tutorials)
+
+# Tutorials for GitHub Actions
+
+Build skills and knowledge about GitHub Actions through hands-on activities.
+
+
+* [Creating an example workflow](/en/actions/tutorials/create-an-example-workflow)
+* [Building and testing your code](/en/actions/tutorials/build-and-test-code)
+[Building and testing Go](/en/actions/tutorials/build-and-test-code/go)
+* [Building and testing Java with Ant](/en/actions/tutorials/build-and-test-code/java-with-ant)
+* [Building and testing Java with Gradle](/en/actions/tutorials/build-and-test-code/java-with-gradle)
+* [Building and testing Java with Maven](/en/actions/tutorials/build-and-test-code/java-with-maven)
+* [Building and testing .NET](/en/actions/tutorials/build-and-test-code/net)
+* [Building and testing Node.js](/en/actions/tutorials/build-and-test-code/nodejs)
+* [Building and testing PowerShell](/en/actions/tutorials/build-and-test-code/powershell)
+* [Building and testing Python](/en/actions/tutorials/build-and-test-code/python)
+* [Building and testing Ruby](/en/actions/tutorials/build-and-test-code/ruby)
+* [Building and testing Rust](/en/actions/tutorials/build-and-test-code/rust)
+* [Building and testing Swift](/en/actions/tutorials/build-and-test-code/swift)
+* [Building and testing Xamarin applications](/en/actions/tutorials/build-and-test-code/xamarin-apps)
+
+* [Use GITHUB_TOKEN for authentication in workflows](/en/actions/tutorials/authenticate-with-github_token)
+* [Migrating from self-hosted runners to GitHub-hosted runners](/en/actions/tutorials/migrate-to-github-runners)
+* [Create actions](/en/actions/tutorials/create-actions)
+[Creating a JavaScript action](/en/actions/tutorials/create-actions/create-a-javascript-action)
+* [Creating a composite action](/en/actions/tutorials/create-actions/create-a-composite-action)
+
+* [Publishing packages](/en/actions/tutorials/publish-packages)
+[Publishing Docker images](/en/actions/tutorials/publish-packages/publish-docker-images)
+* [Publishing Java packages with Gradle](/en/actions/tutorials/publish-packages/publish-java-packages-with-gradle)
+* [Publishing Java packages with Maven](/en/actions/tutorials/publish-packages/publish-java-packages-with-maven)
+* [Publishing Node.js packages](/en/actions/tutorials/publish-packages/publish-nodejs-packages)
+
+* [Managing your work with GitHub Actions](/en/actions/tutorials/manage-your-work)
+[Adding labels to issues](/en/actions/tutorials/manage-your-work/add-labels-to-issues)
+* [Closing inactive issues](/en/actions/tutorials/manage-your-work/close-inactive-issues)
+* [Commenting on an issue when a label is added](/en/actions/tutorials/manage-your-work/add-comments-with-labels)
+* [Scheduling issue creation](/en/actions/tutorials/manage-your-work/schedule-issue-creation)
+
+* [Store and share data with workflow artifacts](/en/actions/tutorials/store-and-share-data)
+* [Using containerized services](/en/actions/tutorials/use-containerized-services)
+[Creating a Docker container action](/en/actions/tutorials/use-containerized-services/create-a-docker-container-action)
+* [Communicating with Docker service containers](/en/actions/tutorials/use-containerized-services/use-docker-service-containers)
+* [Creating PostgreSQL service containers](/en/actions/tutorials/use-containerized-services/create-postgresql-service-containers)
+* [Creating Redis service containers](/en/actions/tutorials/use-containerized-services/create-redis-service-containers)
+
+* [Migrating to GitHub Actions](/en/actions/tutorials/migrate-to-github-actions)
+[Using GitHub Actions Importer to automate migrations](/en/actions/tutorials/migrate-to-github-actions/automated-migrations)
+* [Manually migrating to GitHub Actions](/en/actions/tutorials/migrate-to-github-actions/manual-migrations)
+
+* [Actions Runner Controller](/en/actions/tutorials/use-actions-runner-controller)
+[Get started with Actions Runner Controller](/en/actions/tutorials/use-actions-runner-controller/get-started)
+* [Troubleshooting Actions Runner Controller errors](/en/actions/tutorials/use-actions-runner-controller/troubleshoot)

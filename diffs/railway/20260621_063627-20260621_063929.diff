@@ -1,0 +1,340 @@
+# Diff: railway (20260621_063627 -> 20260621_063929)
+# Generated: 2026-06-21T06:39:40.954785
+# Files changed: 24
+# Total changes: 72 lines
+# Changed files: build-deploy.md, builds-build-configuration.md, builds-dockerfiles.md, builds-railpack.md, builds.md, cli.md, guides-docker-compose.md, guides-express.md, guides-nextjs.md, guides.md, index.md, quick-start.md, build-deploy.md, builds-build-configuration.md, builds-dockerfiles.md, builds-railpack.md, builds.md, cli.md, guides-docker-compose.md, guides-express.md, guides-nextjs.md, guides.md, index.md, quick-start.md
+
+=== build-deploy.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Build & Deploy
+ source: railway
+ url: https://docs.railway.com/build-deploy
+-fetched: 2026-06-21T06:36:21.206298
++fetched: 2026-06-21T06:39:22.919730
+ ---
+ 
+ # Build & Deploy
+
+
+=== builds-build-configuration.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Build Configuration
+ source: railway
+ url: https://docs.railway.com/builds/build-configuration
+-fetched: 2026-06-21T06:36:22.641966
++fetched: 2026-06-21T06:39:24.370131
+ ---
+ 
+ # Build Configuration
+
+
+=== builds-dockerfiles.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Dockerfiles on Railway
+ source: railway
+ url: https://docs.railway.com/builds/dockerfiles
+-fetched: 2026-06-21T06:36:23.357070
++fetched: 2026-06-21T06:39:25.089547
+ ---
+ 
+ # Dockerfiles on Railway
+
+
+=== builds-railpack.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Railpack — Zero-Config Builds
+ source: railway
+ url: https://docs.railway.com/builds/railpack
+-fetched: 2026-06-21T06:36:24.088779
++fetched: 2026-06-21T06:39:25.789660
+ ---
+ 
+ # Railpack — Zero-Config Builds
+
+
+=== builds.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Builds — Configuration & Options
+ source: railway
+ url: https://docs.railway.com/builds
+-fetched: 2026-06-21T06:36:21.921166
++fetched: 2026-06-21T06:39:23.632523
+ ---
+ 
+ # Builds — Configuration & Options
+
+
+=== cli.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: CLI Reference
+ source: railway
+ url: https://docs.railway.com/cli
+-fetched: 2026-06-21T06:36:20.510827
++fetched: 2026-06-21T06:39:22.243009
+ ---
+ 
+ # CLI Reference
+
+
+=== guides-docker-compose.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Guide — Docker Compose
+ source: railway
+ url: https://docs.railway.com/guides/docker-compose
+-fetched: 2026-06-21T06:36:27.215006
++fetched: 2026-06-21T06:39:28.729184
+ ---
+ 
+ # Guide — Docker Compose
+
+
+=== guides-express.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Guide — Express
+ source: railway
+ url: https://docs.railway.com/guides/express
+-fetched: 2026-06-21T06:36:25.737865
++fetched: 2026-06-21T06:39:27.308595
+ ---
+ 
+ # Guide — Express
+
+
+=== guides-nextjs.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Guide — Next.js
+ source: railway
+ url: https://docs.railway.com/guides/nextjs
+-fetched: 2026-06-21T06:36:26.461506
++fetched: 2026-06-21T06:39:28.028984
+ ---
+ 
+ # Guide — Next.js
+
+
+=== guides.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Deployment Guides — Index
+ source: railway
+ url: https://docs.railway.com/guides
+-fetched: 2026-06-21T06:36:24.863699
++fetched: 2026-06-21T06:39:26.606065
+ ---
+ 
+ # Deployment Guides — Index
+
+
+=== index.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Railway Documentation — Home
+ source: railway
+ url: https://docs.railway.com/
+-fetched: 2026-06-21T06:36:18.979845
++fetched: 2026-06-21T06:39:20.743439
+ ---
+ 
+ # Railway Documentation — Home
+
+
+=== quick-start.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Quick Start Tutorial
+ source: railway
+ url: https://docs.railway.com/quick-start
+-fetched: 2026-06-21T06:36:19.704420
++fetched: 2026-06-21T06:39:21.455627
+ ---
+ 
+ # Quick Start Tutorial
+
+
+=== build-deploy.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Build & Deploy
+ source: railway
+ url: https://docs.railway.com/build-deploy
+-fetched: 2026-06-21T06:36:21.206298
++fetched: 2026-06-21T06:39:22.919730
+ ---
+ 
+ # Build & Deploy
+
+
+=== builds-build-configuration.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Build Configuration
+ source: railway
+ url: https://docs.railway.com/builds/build-configuration
+-fetched: 2026-06-21T06:36:22.641966
++fetched: 2026-06-21T06:39:24.370131
+ ---
+ 
+ # Build Configuration
+
+
+=== builds-dockerfiles.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Dockerfiles on Railway
+ source: railway
+ url: https://docs.railway.com/builds/dockerfiles
+-fetched: 2026-06-21T06:36:23.357070
++fetched: 2026-06-21T06:39:25.089547
+ ---
+ 
+ # Dockerfiles on Railway
+
+
+=== builds-railpack.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Railpack — Zero-Config Builds
+ source: railway
+ url: https://docs.railway.com/builds/railpack
+-fetched: 2026-06-21T06:36:24.088779
++fetched: 2026-06-21T06:39:25.789660
+ ---
+ 
+ # Railpack — Zero-Config Builds
+
+
+=== builds.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Builds — Configuration & Options
+ source: railway
+ url: https://docs.railway.com/builds
+-fetched: 2026-06-21T06:36:21.921166
++fetched: 2026-06-21T06:39:23.632523
+ ---
+ 
+ # Builds — Configuration & Options
+
+
+=== cli.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: CLI Reference
+ source: railway
+ url: https://docs.railway.com/cli
+-fetched: 2026-06-21T06:36:20.510827
++fetched: 2026-06-21T06:39:22.243009
+ ---
+ 
+ # CLI Reference
+
+
+=== guides-docker-compose.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Guide — Docker Compose
+ source: railway
+ url: https://docs.railway.com/guides/docker-compose
+-fetched: 2026-06-21T06:36:27.215006
++fetched: 2026-06-21T06:39:28.729184
+ ---
+ 
+ # Guide — Docker Compose
+
+
+=== guides-express.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Guide — Express
+ source: railway
+ url: https://docs.railway.com/guides/express
+-fetched: 2026-06-21T06:36:25.737865
++fetched: 2026-06-21T06:39:27.308595
+ ---
+ 
+ # Guide — Express
+
+
+=== guides-nextjs.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Guide — Next.js
+ source: railway
+ url: https://docs.railway.com/guides/nextjs
+-fetched: 2026-06-21T06:36:26.461506
++fetched: 2026-06-21T06:39:28.028984
+ ---
+ 
+ # Guide — Next.js
+
+
+=== guides.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Deployment Guides — Index
+ source: railway
+ url: https://docs.railway.com/guides
+-fetched: 2026-06-21T06:36:24.863699
++fetched: 2026-06-21T06:39:26.606065
+ ---
+ 
+ # Deployment Guides — Index
+
+
+=== index.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Railway Documentation — Home
+ source: railway
+ url: https://docs.railway.com/
+-fetched: 2026-06-21T06:36:18.979845
++fetched: 2026-06-21T06:39:20.743439
+ ---
+ 
+ # Railway Documentation — Home
+
+
+=== quick-start.md ===
+--- v20260621_063627
++++ v20260621_063929
+@@ -2,7 +2,7 @@
+ title: Quick Start Tutorial
+ source: railway
+ url: https://docs.railway.com/quick-start
+-fetched: 2026-06-21T06:36:19.704420
++fetched: 2026-06-21T06:39:21.455627
+ ---
+ 
+ # Quick Start Tutorial

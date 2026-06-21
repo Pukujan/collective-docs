@@ -7,6 +7,11 @@ retention:
   versions: 5
   diffs: all
 
+# ⚠️ URL NOTE: URLs in pages[] may go stale (docs restructure).
+# The local markdown in human/<name>/ and agent/<name>/ is always authoritative.
+# Use search/search.py as the primary interface:
+#   python search/search.py --keyword "query" --source <name>
+#
 # NOTE: The Hermes docs site (Next.js SPA on GitHub Pages) renders most pages
 # client-side via JavaScript. Only 4 pages have static HTML output:
 #   - /

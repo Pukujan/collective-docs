@@ -1,0 +1,32 @@
+name: vercel
+display: Vercel Docs
+homepage: "https://vercel.com/docs"
+priority: high
+update_frequency: daily
+retention:
+  versions: 5
+  diffs: all
+
+# Vercel Docs — Next.js ISR with full server-side rendering.
+# Returns 800KB-1.5MB HTML pages with rendered content.
+# Documented: no __NEXT_DATA__ JSON (ISR), but all prose rendered server-side.
+# Confirmed: headings, CLI commands, and REST API endpoints present in HTML.
+# ⚠️ URL NOTE: URLs in pages[] may go stale (docs restructure).
+# The local markdown in human/<name>/ and agent/<name>/ is always authoritative.
+# Use search/search.py as the primary interface:
+#   python search/search.py --keyword "query" --source <name>
+pages:
+  - path: "/docs"
+    title: "Docs Home — Ship anything with Vercel"
+  - path: "/docs/cli"
+    title: "Vercel CLI — Overview & Commands"
+  - path: "/docs/deployments"
+    title: "Deploying to Vercel"
+  - path: "/docs/projects"
+    title: "Projects Overview"
+  - path: "/docs/rest-api"
+    title: "Vercel REST API Reference"
+  - path: "/docs/security"
+    title: "Security Documentation"
+  - path: "/docs/frameworks"
+    title: "Framework Documentation"

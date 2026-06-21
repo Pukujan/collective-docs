@@ -1,0 +1,26 @@
+name: docker
+display: Docker Docs
+homepage: "https://docs.docker.com"
+priority: high
+update_frequency: weekly
+retention:
+  versions: 3
+  diffs: all
+
+# Docker Docs — static HTML. All pages pre-rendered server-side.
+# Core reference for containerization — essential for deployment workflows.
+# ⚠️ URL NOTE: URLs in pages[] may go stale (docs restructure).
+# The local markdown in human/<name>/ and agent/<name>/ is always authoritative.
+# Use search/search.py as the primary interface:
+#   python search/search.py --keyword "query" --source <name>
+pages:
+  - path: "/"
+    title: "Docker Docs — Home"
+  - path: "/build/"
+    title: "Docker Build"
+  - path: "/compose/"
+    title: "Docker Compose"
+  - path: "/engine/"
+    title: "Docker Engine"
+  - path: "/reference/"
+    title: "Docker Reference"

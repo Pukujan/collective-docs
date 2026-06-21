@@ -1,0 +1,17 @@
+name: mcp
+display: Model Context Protocol (MCP)
+homepage: "https://modelcontextprotocol.io"
+priority: high
+update_frequency: weekly
+retention:
+  versions: 3
+  diffs: all
+
+# MCP Docs — Mintlify-powered SPA (all pages JS-rendered except /llms.txt).
+# Navigation requires JS, but /llms.txt and /llms-full.txt serve raw text content.
+# We fetch llms-full.txt (~1.9MB) as the primary source — it contains ALL docs.
+pages:
+  - path: "/llms.txt"
+    title: "MCP — llms.txt (Document Index)"
+  - path: "/llms-full.txt"
+    title: "MCP — llms-full.txt (Full Documentation)"

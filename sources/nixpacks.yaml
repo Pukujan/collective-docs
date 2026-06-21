@@ -1,0 +1,26 @@
+name: nixpacks
+display: Nixpacks
+homepage: "https://nixpacks.com/docs"
+priority: normal
+update_frequency: weekly
+retention:
+  versions: 3
+  diffs: all
+
+# Nixpacks Docs — Next.js SSG. All pages pre-rendered as static ~25-40KB HTML.
+# Content confirmed in raw HTML (headings visible).
+# ⚠️ URL NOTE: URLs in pages[] may go stale (docs restructure).
+# The local markdown in human/<name>/ and agent/<name>/ is always authoritative.
+# Use search/search.py as the primary interface:
+#   python search/search.py --keyword "query" --source <name>
+pages:
+  - path: "/docs"
+    title: "Introduction"
+  - path: "/docs/getting-started"
+    title: "Getting Started"
+  - path: "/docs/providers"
+    title: "Providers"
+  - path: "/docs/cli"
+    title: "CLI Reference"
+  - path: "/docs/configuration"
+    title: "Configuration"

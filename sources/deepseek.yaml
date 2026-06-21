@@ -6,5 +6,49 @@ update_frequency: daily
 retention:
   versions: 5
   diffs: all
-pages: []
-# To be populated once source URL is confirmed
+
+# Docusaurus v3 — SSG with static HTML. All pages served as pre-rendered HTML.
+# Confirmed: ~20-100KB per page, real content in raw HTML (no JS needed).
+# ⚠️ URL NOTE: URLs in pages[] may go stale (docs restructure).
+# The local markdown in human/<name>/ and agent/<name>/ is always authoritative.
+# Use search/search.py as the primary interface:
+#   python search/search.py --keyword "query" --source <name>
+pages:
+  - path: "/"
+    title: "Your First API Call"
+  - path: "/faq"
+    title: "FAQ"
+  - path: "/guides/tool_calls"
+    title: "Tool Calls / Function Calling"
+  - path: "/guides/thinking_mode"
+    title: "Thinking / Reasoning Mode"
+  - path: "/guides/json_mode"
+    title: "JSON Mode"
+  - path: "/guides/multi_round_chat"
+    title: "Multi-Round Chat"
+  - path: "/api/deepseek-api"
+    title: "API Reference — DeepSeek API"
+  - path: "/api/list-models"
+    title: "API — List Models"
+  - path: "/quick_start/pricing"
+    title: "Pricing & Rate Limits"
+  - path: "/quick_start/rate_limit"
+    title: "Rate Limits"
+  - path: "/quick_start/error_codes"
+    title: "Error Codes"
+  - path: "/quick_start/token_usage"
+    title: "Token Usage"
+  - path: "/guides/anthropic_api"
+    title: "Anthropic-Compatible API"
+  - path: "/guides/fim_completion"
+    title: "FIM (Fill-in-the-Middle) Completion"
+  - path: "/guides/chat_prefix_completion"
+    title: "Chat Prefix Completion"
+  - path: "/guides/kv_cache"
+    title: "KV Cache Management"
+  - path: "/quick_start/agent_integrations/claude_code"
+    title: "Integration — Claude Code"
+  - path: "/news/news260424"
+    title: "News — Updates"
+  - path: "/updates"
+    title: "Changelog / Updates"

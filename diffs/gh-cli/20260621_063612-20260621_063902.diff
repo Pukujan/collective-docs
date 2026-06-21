@@ -1,0 +1,228 @@
+# Diff: gh-cli (20260621_063612 -> 20260621_063902)
+# Generated: 2026-06-21T06:39:40.279745
+# Files changed: 16
+# Total changes: 48 lines
+# Changed files: manual-gh_issue.md, manual-gh_pr.md, manual-gh_release.md, manual-gh_repo.md, manual-gh_run.md, manual-gh_secret.md, manual-gh_workflow.md, manual.md, manual-gh_issue.md, manual-gh_pr.md, manual-gh_release.md, manual-gh_repo.md, manual-gh_run.md, manual-gh_secret.md, manual-gh_workflow.md, manual.md
+
+=== manual-gh_issue.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh issue — Issue commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_issue
+-fetched: 2026-06-21T06:36:08.457994
++fetched: 2026-06-21T06:38:59.395182
+ ---
+ 
+ # gh issue — Issue commands
+
+
+=== manual-gh_pr.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh pr — Pull Request commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_pr
+-fetched: 2026-06-21T06:36:07.858698
++fetched: 2026-06-21T06:38:58.787325
+ ---
+ 
+ # gh pr — Pull Request commands
+
+
+=== manual-gh_release.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh release — Release commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_release
+-fetched: 2026-06-21T06:36:11.512287
++fetched: 2026-06-21T06:39:02.405730
+ ---
+ 
+ # gh release — Release commands
+
+
+=== manual-gh_repo.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh repo — Repository commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_repo
+-fetched: 2026-06-21T06:36:09.085161
++fetched: 2026-06-21T06:38:59.998326
+ ---
+ 
+ # gh repo — Repository commands
+
+
+=== manual-gh_run.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh run — Workflow Run commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_run
+-fetched: 2026-06-21T06:36:09.688384
++fetched: 2026-06-21T06:39:00.602568
+ ---
+ 
+ # gh run — Workflow Run commands
+
+
+=== manual-gh_secret.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh secret — Secret commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_secret
+-fetched: 2026-06-21T06:36:10.904558
++fetched: 2026-06-21T06:39:01.815202
+ ---
+ 
+ # gh secret — Secret commands
+
+
+=== manual-gh_workflow.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh workflow — Workflow commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_workflow
+-fetched: 2026-06-21T06:36:10.295396
++fetched: 2026-06-21T06:39:01.197416
+ ---
+ 
+ # gh workflow — Workflow commands
+
+
+=== manual.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh CLI Manual — Overview
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/
+-fetched: 2026-06-21T06:36:07.256400
++fetched: 2026-06-21T06:38:58.182603
+ ---
+ 
+ # gh CLI Manual — Overview
+
+
+=== manual-gh_issue.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh issue — Issue commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_issue
+-fetched: 2026-06-21T06:36:08.457994
++fetched: 2026-06-21T06:38:59.395182
+ ---
+ 
+ # gh issue — Issue commands
+
+
+=== manual-gh_pr.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh pr — Pull Request commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_pr
+-fetched: 2026-06-21T06:36:07.858698
++fetched: 2026-06-21T06:38:58.787325
+ ---
+ 
+ # gh pr — Pull Request commands
+
+
+=== manual-gh_release.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh release — Release commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_release
+-fetched: 2026-06-21T06:36:11.512287
++fetched: 2026-06-21T06:39:02.405730
+ ---
+ 
+ # gh release — Release commands
+
+
+=== manual-gh_repo.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh repo — Repository commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_repo
+-fetched: 2026-06-21T06:36:09.085161
++fetched: 2026-06-21T06:38:59.998326
+ ---
+ 
+ # gh repo — Repository commands
+
+
+=== manual-gh_run.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh run — Workflow Run commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_run
+-fetched: 2026-06-21T06:36:09.688384
++fetched: 2026-06-21T06:39:00.602568
+ ---
+ 
+ # gh run — Workflow Run commands
+
+
+=== manual-gh_secret.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh secret — Secret commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_secret
+-fetched: 2026-06-21T06:36:10.904558
++fetched: 2026-06-21T06:39:01.815202
+ ---
+ 
+ # gh secret — Secret commands
+
+
+=== manual-gh_workflow.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh workflow — Workflow commands
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/gh_workflow
+-fetched: 2026-06-21T06:36:10.295396
++fetched: 2026-06-21T06:39:01.197416
+ ---
+ 
+ # gh workflow — Workflow commands
+
+
+=== manual.md ===
+--- v20260621_063612
++++ v20260621_063902
+@@ -2,7 +2,7 @@
+ title: gh CLI Manual — Overview
+ source: gh-cli
+ url: https://cli.github.com/manual/manual/
+-fetched: 2026-06-21T06:36:07.256400
++fetched: 2026-06-21T06:38:58.182603
+ ---
+ 
+ # gh CLI Manual — Overview

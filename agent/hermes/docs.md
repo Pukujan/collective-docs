@@ -60,5 +60,5 @@ It's not a coding copilot tethered to an IDE or a chatbot wrapper around a singl
 ## For LLMs and coding agents[​](#for-llms-and-coding-agents)
 Machine-readable entry points to this documentation:
 * **[`/llms.txt`](/docs/assets/files/llms-c03199c2b1721b8eb2141fff54dcfad5.txt)** — curated index of every doc page with short descriptions. ~17 KB, safe to load into an LLM context.
-* **[`/llms-full.txt`](/docs/assets/files/llms-full-6b61486b45a8abec596025ac17ed338f.txt)** — every doc page concatenated into a single markdown file for one-shot ingestion. ~1.8 MB.
+* **[`/llms-full.txt`](/docs/assets/files/llms-full-aa5cd62b671da51688511c10b80985f6.txt)** — every doc page concatenated into a single markdown file for one-shot ingestion. ~1.8 MB.
 Both files also resolve at `/docs/llms.txt` and `/docs/llms-full.txt`. Generated fresh on every deploy.

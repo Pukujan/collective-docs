@@ -1,0 +1,43 @@
+name: github
+display: GitHub Docs
+homepage: "https://docs.github.com"
+priority: critical
+update_frequency: daily
+retention:
+  versions: 5
+  diffs: all
+
+# GitHub Docs — static HTML served from docs.github.com.
+# All pages confirmed >250KB with full rendered content.
+# ⚠️ URL NOTE: URLs in pages[] may go stale (docs restructure).
+# The local markdown in human/<name>/ and agent/<name>/ is always authoritative.
+# Use search/search.py as the primary interface:
+#   python search/search.py --keyword "query" --source <name>
+pages:
+  # REST API
+  - path: "/en/rest"
+    title: "GitHub REST API — Overview"
+  - path: "/en/rest/repos"
+    title: "REST API — Repos"
+  - path: "/en/rest/actions"
+    title: "REST API — Actions"
+  - path: "/en/rest/issues"
+    title: "REST API — Issues"
+  - path: "/en/rest/releases"
+    title: "REST API — Releases"
+
+  # GitHub CLI (gh)
+  - path: "/en/actions/writing-workflows/workflow-syntax-for-github-actions"
+    title: "Workflow Syntax for GitHub Actions"
+
+  # GitHub Actions
+  - path: "/en/actions"
+    title: "GitHub Actions — Documentation"
+  - path: "/en/actions/writing-workflows"
+    title: "Writing Workflows"
+  - path: "/en/actions/security-for-github-actions"
+    title: "Security for GitHub Actions"
+  - path: "/en/actions/tutorials"
+    title: "Actions Tutorials"
+  - path: "/en/actions/hosting-your-own-runners"
+    title: "Hosting Your Own Runners"

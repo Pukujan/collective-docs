@@ -1,0 +1,41 @@
+name: railway
+display: Railway Docs
+homepage: "https://docs.railway.com"
+priority: high
+update_frequency: daily
+retention:
+  versions: 5
+  diffs: all
+
+# Railway Docs — Next.js on docs.railway.com (redirects from docs.railway.app).
+# Full SSR. Pages return 150KB-3MB with real rendered content.
+# Guides section is large (3MB aggregate).
+# ⚠️ URL NOTE: URLs in pages[] may go stale (docs restructure).
+# The local markdown in human/<name>/ and agent/<name>/ is always authoritative.
+# Use search/search.py as the primary interface:
+#   python search/search.py --keyword "query" --source <name>
+pages:
+  - path: "/"
+    title: "Railway Documentation — Home"
+  - path: "/quick-start"
+    title: "Quick Start Tutorial"
+  - path: "/cli"
+    title: "CLI Reference"
+  - path: "/build-deploy"
+    title: "Build & Deploy"
+  - path: "/builds"
+    title: "Builds — Configuration & Options"
+  - path: "/builds/build-configuration"
+    title: "Build Configuration"
+  - path: "/builds/dockerfiles"
+    title: "Dockerfiles on Railway"
+  - path: "/builds/railpack"
+    title: "Railpack — Zero-Config Builds"
+  - path: "/guides"
+    title: "Deployment Guides — Index"
+  - path: "/guides/express"
+    title: "Guide — Express"
+  - path: "/guides/nextjs"
+    title: "Guide — Next.js"
+  - path: "/guides/docker-compose"
+    title: "Guide — Docker Compose"

@@ -1,0 +1,33 @@
+name: gh-cli
+display: GitHub CLI (gh)
+homepage: "https://cli.github.com/manual/"
+priority: normal
+update_frequency: weekly
+retention:
+  versions: 3
+  diffs: all
+
+# GitHub CLI manual — static HTML pages (~100KB each).
+# Root /manual/ redirects to /manual/ with trailing slash.
+# Each command page loads as separate URL.
+# ⚠️ URL NOTE: URLs in pages[] may go stale (docs restructure).
+# The local markdown in human/<name>/ and agent/<name>/ is always authoritative.
+# Use search/search.py as the primary interface:
+#   python search/search.py --keyword "query" --source <name>
+pages:
+  - path: "/manual/"
+    title: "gh CLI Manual — Overview"
+  - path: "/manual/gh_pr"
+    title: "gh pr — Pull Request commands"
+  - path: "/manual/gh_issue"
+    title: "gh issue — Issue commands"
+  - path: "/manual/gh_repo"
+    title: "gh repo — Repository commands"
+  - path: "/manual/gh_run"
+    title: "gh run — Workflow Run commands"
+  - path: "/manual/gh_workflow"
+    title: "gh workflow — Workflow commands"
+  - path: "/manual/gh_secret"
+    title: "gh secret — Secret commands"
+  - path: "/manual/gh_release"
+    title: "gh release — Release commands"

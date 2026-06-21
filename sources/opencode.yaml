@@ -6,5 +6,9 @@ update_frequency: daily
 retention:
   versions: 3
   diffs: all
+# ⚠️ URL NOTE: URLs in pages[] may go stale (docs restructure).
+# The local markdown in human/<name>/ and agent/<name>/ is always authoritative.
+# Use search/search.py as the primary interface:
+#   python search/search.py --keyword "query" --source <name>
 pages: []
 # To be populated once source URL is confirmed

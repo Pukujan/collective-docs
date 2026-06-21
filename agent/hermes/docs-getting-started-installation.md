@@ -52,13 +52,13 @@ Fastest path: Nous PortalOne subscription covers 300+ models plus the [Tool Gate
 ```
 That logs you in, sets Nous as your provider, and turns on the Tool Gateway in one command.
 ## Prerequisites[​](#prerequisites)
-**Installer:** On non-Windows platforms, the only prerequisite is **Git**. The installer automatically handles everything else:
+**Installer:** On non-Windows platforms, the only prerequisite is **Git**. On Linux, also make sure `curl` and `xz-utils` are available (the installer downloads Node.js as a `.tar.xz` archive). The desktop app additionally requires `g++` (or `build-essential` on Debian/Ubuntu) to compile native modules. The installer automatically handles everything else:
 * **uv** (fast Python package manager)
 * **Python 3.11** (via uv, no sudo needed)
 * **Node.js v22** (for browser automation and WhatsApp bridge)
 * **ripgrep** (fast file search)
 * **ffmpeg** (audio format conversion for TTS)
-infoYou do **not** need to install Python, Node.js, ripgrep, or ffmpeg manually. The installer detects what's missing and installs it for you. Just make sure `git` is available (`git --version`).
+infoYou do **not** need to install Python, Node.js, ripgrep, or ffmpeg manually. The installer detects what's missing and installs it for you. Just make sure `git` is available (`git --version`). On Linux, ensure `curl` and `xz-utils` are installed (`sudo apt install curl xz-utils` on Debian/Ubuntu). For the desktop app, also install `build-essential` (`sudo apt install build-essential`).
 Nix usersIf you use Nix (on NixOS, macOS, or Linux), there's a dedicated setup path with a Nix flake, declarative NixOS module, and optional container mode. See the **[Nix & NixOS Setup](/docs/getting-started/nix-setup)** guide.
 ## Manual / Developer Installation[​](#manual--developer-installation)
 If you want to clone the repo and install from source — for contributing, running from a specific branch, or having full control over the virtual environment — see the [Development Setup](/docs/developer-guide/contributing#development-setup) section in the Contributing guide.

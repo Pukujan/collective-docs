@@ -1,0 +1,92 @@
+---
+title: REST API — Issues
+source: github
+url: https://docs.github.com/en/rest/issues
+fetched: 2026-06-21T06:39:05.375412
+---
+
+# REST API — Issues
+
+The REST API is now versioned. For more information, see "[About API versioning](/rest/overview/api-versions)."
+* [REST API](/en/rest)/
+* [Issues](/en/rest/issues)
+
+# REST API endpoints for issues
+
+Use the REST API to view and manage issues, including issue assignees, comments, labels, and milestones.
+
+
+* [REST API endpoints for issues](/en/rest/issues/issues)
+[List issues assigned to the authenticated user](/en/rest/issues/issues#list-issues-assigned-to-the-authenticated-user)
+* [List organization issues assigned to the authenticated user](/en/rest/issues/issues#list-organization-issues-assigned-to-the-authenticated-user)
+* [List repository issues](/en/rest/issues/issues#list-repository-issues)
+* [Create an issue](/en/rest/issues/issues#create-an-issue)
+* [Get an issue](/en/rest/issues/issues#get-an-issue)
+* [Update an issue](/en/rest/issues/issues#update-an-issue)
+* [Lock an issue](/en/rest/issues/issues#lock-an-issue)
+* [Unlock an issue](/en/rest/issues/issues#unlock-an-issue)
+* [List user account issues assigned to the authenticated user](/en/rest/issues/issues#list-user-account-issues-assigned-to-the-authenticated-user)
+
+* [REST API endpoints for issue assignees](/en/rest/issues/assignees)
+[List assignees](/en/rest/issues/assignees#list-assignees)
+* [Check if a user can be assigned](/en/rest/issues/assignees#check-if-a-user-can-be-assigned)
+* [Add assignees to an issue](/en/rest/issues/assignees#add-assignees-to-an-issue)
+* [Remove assignees from an issue](/en/rest/issues/assignees#remove-assignees-from-an-issue)
+* [Check if a user can be assigned to a issue](/en/rest/issues/assignees#check-if-a-user-can-be-assigned-to-a-issue)
+
+* [REST API endpoints for issue comments](/en/rest/issues/comments)
+[List issue comments for a repository](/en/rest/issues/comments#list-issue-comments-for-a-repository)
+* [Get an issue comment](/en/rest/issues/comments#get-an-issue-comment)
+* [Update an issue comment](/en/rest/issues/comments#update-an-issue-comment)
+* [Delete an issue comment](/en/rest/issues/comments#delete-an-issue-comment)
+* [Pin an issue comment](/en/rest/issues/comments#pin-an-issue-comment)
+* [Unpin an issue comment](/en/rest/issues/comments#unpin-an-issue-comment)
+* [List issue comments](/en/rest/issues/comments#list-issue-comments)
+* [Create an issue comment](/en/rest/issues/comments#create-an-issue-comment)
+
+* [REST API endpoints for issue events](/en/rest/issues/events)
+[List issue events for a repository](/en/rest/issues/events#list-issue-events-for-a-repository)
+* [Get an issue event](/en/rest/issues/events#get-an-issue-event)
+* [List issue events](/en/rest/issues/events#list-issue-events)
+
+* [REST API endpoints for issue dependencies](/en/rest/issues/issue-dependencies)
+[List dependencies an issue is blocked by](/en/rest/issues/issue-dependencies#list-dependencies-an-issue-is-blocked-by)
+* [Add a dependency an issue is blocked by](/en/rest/issues/issue-dependencies#add-a-dependency-an-issue-is-blocked-by)
+* [Remove dependency an issue is blocked by](/en/rest/issues/issue-dependencies#remove-dependency-an-issue-is-blocked-by)
+* [List dependencies an issue is blocking](/en/rest/issues/issue-dependencies#list-dependencies-an-issue-is-blocking)
+
+* [REST API endpoints for issue field values](/en/rest/issues/issue-field-values)
+[List issue field values for an issue](/en/rest/issues/issue-field-values#list-issue-field-values-for-an-issue)
+* [Add issue field values to an issue](/en/rest/issues/issue-field-values#add-issue-field-values-to-an-issue)
+* [Set issue field values for an issue](/en/rest/issues/issue-field-values#set-issue-field-values-for-an-issue)
+* [Delete an issue field value from an issue](/en/rest/issues/issue-field-values#delete-an-issue-field-value-from-an-issue)
+
+* [REST API endpoints for labels](/en/rest/issues/labels)
+[List labels for an issue](/en/rest/issues/labels#list-labels-for-an-issue)
+* [Add labels to an issue](/en/rest/issues/labels#add-labels-to-an-issue)
+* [Set labels for an issue](/en/rest/issues/labels#set-labels-for-an-issue)
+* [Remove all labels from an issue](/en/rest/issues/labels#remove-all-labels-from-an-issue)
+* [Remove a label from an issue](/en/rest/issues/labels#remove-a-label-from-an-issue)
+* [List labels for a repository](/en/rest/issues/labels#list-labels-for-a-repository)
+* [Create a label](/en/rest/issues/labels#create-a-label)
+* [Get a label](/en/rest/issues/labels#get-a-label)
+* [Update a label](/en/rest/issues/labels#update-a-label)
+* [Delete a label](/en/rest/issues/labels#delete-a-label)
+* [List labels for issues in a milestone](/en/rest/issues/labels#list-labels-for-issues-in-a-milestone)
+
+* [REST API endpoints for milestones](/en/rest/issues/milestones)
+[List milestones](/en/rest/issues/milestones#list-milestones)
+* [Create a milestone](/en/rest/issues/milestones#create-a-milestone)
+* [Get a milestone](/en/rest/issues/milestones#get-a-milestone)
+* [Update a milestone](/en/rest/issues/milestones#update-a-milestone)
+* [Delete a milestone](/en/rest/issues/milestones#delete-a-milestone)
+
+* [REST API endpoints for sub-issues](/en/rest/issues/sub-issues)
+[Get parent issue](/en/rest/issues/sub-issues#get-parent-issue)
+* [Remove sub-issue](/en/rest/issues/sub-issues#remove-sub-issue)
+* [List sub-issues](/en/rest/issues/sub-issues#list-sub-issues)
+* [Add sub-issue](/en/rest/issues/sub-issues#add-sub-issue)
+* [Reprioritize sub-issue](/en/rest/issues/sub-issues#reprioritize-sub-issue)
+
+* [REST API endpoints for timeline events](/en/rest/issues/timeline)
+[List timeline events for an issue](/en/rest/issues/timeline#list-timeline-events-for-an-issue)

@@ -1,0 +1,536 @@
+# Diff: deepseek (20260621_063558 -> 20260621_063852)
+# Generated: 2026-06-21T06:39:40.155414
+# Files changed: 38
+# Total changes: 114 lines
+# Changed files: api-deepseek-api.md, api-list-models.md, faq.md, guides-anthropic_api.md, guides-chat_prefix_completion.md, guides-fim_completion.md, guides-json_mode.md, guides-kv_cache.md, guides-multi_round_chat.md, guides-thinking_mode.md, guides-tool_calls.md, index.md, news-news260424.md, quick_start-agent_integrations-claude_code.md, quick_start-error_codes.md, quick_start-pricing.md, quick_start-rate_limit.md, quick_start-token_usage.md, updates.md, api-deepseek-api.md, api-list-models.md, faq.md, guides-anthropic_api.md, guides-chat_prefix_completion.md, guides-fim_completion.md, guides-json_mode.md, guides-kv_cache.md, guides-multi_round_chat.md, guides-thinking_mode.md, guides-tool_calls.md, index.md, news-news260424.md, quick_start-agent_integrations-claude_code.md, quick_start-error_codes.md, quick_start-pricing.md, quick_start-rate_limit.md, quick_start-token_usage.md, updates.md
+
+=== api-deepseek-api.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: API Reference — DeepSeek API
+ source: deepseek
+ url: https://api-docs.deepseek.com/api/deepseek-api
+-fetched: 2026-06-21T06:35:46.958408
++fetched: 2026-06-21T06:38:41.350376
+ ---
+ 
+ # API Reference — DeepSeek API
+
+
+=== api-list-models.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: API — List Models
+ source: deepseek
+ url: https://api-docs.deepseek.com/api/list-models
+-fetched: 2026-06-21T06:35:47.850877
++fetched: 2026-06-21T06:38:42.250422
+ ---
+ 
+ # API — List Models
+
+
+=== faq.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: FAQ
+ source: deepseek
+ url: https://api-docs.deepseek.com/faq
+-fetched: 2026-06-21T06:35:42.091777
++fetched: 2026-06-21T06:38:36.631313
+ ---
+ 
+ # FAQ
+
+
+=== guides-anthropic_api.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Anthropic-Compatible API
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/anthropic_api
+-fetched: 2026-06-21T06:35:52.423525
++fetched: 2026-06-21T06:38:46.844184
+ ---
+ 
+ # Anthropic-Compatible API
+
+
+=== guides-chat_prefix_completion.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Chat Prefix Completion
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/chat_prefix_completion
+-fetched: 2026-06-21T06:35:54.212013
++fetched: 2026-06-21T06:38:48.612870
+ ---
+ 
+ # Chat Prefix Completion
+
+
+=== guides-fim_completion.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: FIM (Fill-in-the-Middle) Completion
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/fim_completion
+-fetched: 2026-06-21T06:35:53.318401
++fetched: 2026-06-21T06:38:47.735350
+ ---
+ 
+ # FIM (Fill-in-the-Middle) Completion
+
+
+=== guides-json_mode.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: JSON Mode
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/json_mode
+-fetched: 2026-06-21T06:35:45.164799
++fetched: 2026-06-21T06:38:39.572031
+ ---
+ 
+ # JSON Mode
+
+
+=== guides-kv_cache.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: KV Cache Management
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/kv_cache
+-fetched: 2026-06-21T06:35:55.115987
++fetched: 2026-06-21T06:38:49.504215
+ ---
+ 
+ # KV Cache Management
+
+
+=== guides-multi_round_chat.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Multi-Round Chat
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/multi_round_chat
+-fetched: 2026-06-21T06:35:46.069203
++fetched: 2026-06-21T06:38:40.477093
+ ---
+ 
+ # Multi-Round Chat
+
+
+=== guides-thinking_mode.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Thinking / Reasoning Mode
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/thinking_mode
+-fetched: 2026-06-21T06:35:44.263446
++fetched: 2026-06-21T06:38:38.671972
+ ---
+ 
+ # Thinking / Reasoning Mode
+
+
+=== guides-tool_calls.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Tool Calls / Function Calling
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/tool_calls
+-fetched: 2026-06-21T06:35:43.086005
++fetched: 2026-06-21T06:38:37.624127
+ ---
+ 
+ # Tool Calls / Function Calling
+
+
+=== index.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Your First API Call
+ source: deepseek
+ url: https://api-docs.deepseek.com/
+-fetched: 2026-06-21T06:35:41.191945
++fetched: 2026-06-21T06:38:35.735275
+ ---
+ 
+ # Your First API Call
+
+
+=== news-news260424.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: News — Updates
+ source: deepseek
+ url: https://api-docs.deepseek.com/news/news260424
+-fetched: 2026-06-21T06:35:56.934322
++fetched: 2026-06-21T06:38:51.302996
+ ---
+ 
+ # News — Updates
+
+
+=== quick_start-agent_integrations-claude_code.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Integration — Claude Code
+ source: deepseek
+ url: https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code
+-fetched: 2026-06-21T06:35:56.031896
++fetched: 2026-06-21T06:38:50.425172
+ ---
+ 
+ # Integration — Claude Code
+
+
+=== quick_start-error_codes.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Error Codes
+ source: deepseek
+ url: https://api-docs.deepseek.com/quick_start/error_codes
+-fetched: 2026-06-21T06:35:50.537929
++fetched: 2026-06-21T06:38:45.060337
+ ---
+ 
+ # Error Codes
+
+
+=== quick_start-pricing.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Pricing & Rate Limits
+ source: deepseek
+ url: https://api-docs.deepseek.com/quick_start/pricing
+-fetched: 2026-06-21T06:35:48.737827
++fetched: 2026-06-21T06:38:43.128837
+ ---
+ 
+ # Pricing & Rate Limits
+
+
+=== quick_start-rate_limit.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Rate Limits
+ source: deepseek
+ url: https://api-docs.deepseek.com/quick_start/rate_limit
+-fetched: 2026-06-21T06:35:49.652297
++fetched: 2026-06-21T06:38:44.162657
+ ---
+ 
+ # Rate Limits
+
+
+=== quick_start-token_usage.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Token Usage
+ source: deepseek
+ url: https://api-docs.deepseek.com/quick_start/token_usage
+-fetched: 2026-06-21T06:35:51.413667
++fetched: 2026-06-21T06:38:45.935763
+ ---
+ 
+ # Token Usage
+
+
+=== updates.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Changelog / Updates
+ source: deepseek
+ url: https://api-docs.deepseek.com/updates
+-fetched: 2026-06-21T06:35:57.853460
++fetched: 2026-06-21T06:38:52.297106
+ ---
+ 
+ # Changelog / Updates
+
+
+=== api-deepseek-api.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: API Reference — DeepSeek API
+ source: deepseek
+ url: https://api-docs.deepseek.com/api/deepseek-api
+-fetched: 2026-06-21T06:35:46.958408
++fetched: 2026-06-21T06:38:41.350376
+ ---
+ 
+ # API Reference — DeepSeek API
+
+
+=== api-list-models.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: API — List Models
+ source: deepseek
+ url: https://api-docs.deepseek.com/api/list-models
+-fetched: 2026-06-21T06:35:47.850877
++fetched: 2026-06-21T06:38:42.250422
+ ---
+ 
+ # API — List Models
+
+
+=== faq.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: FAQ
+ source: deepseek
+ url: https://api-docs.deepseek.com/faq
+-fetched: 2026-06-21T06:35:42.091777
++fetched: 2026-06-21T06:38:36.631313
+ ---
+ 
+ # FAQ
+
+
+=== guides-anthropic_api.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Anthropic-Compatible API
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/anthropic_api
+-fetched: 2026-06-21T06:35:52.423525
++fetched: 2026-06-21T06:38:46.844184
+ ---
+ 
+ # Anthropic-Compatible API
+
+
+=== guides-chat_prefix_completion.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Chat Prefix Completion
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/chat_prefix_completion
+-fetched: 2026-06-21T06:35:54.212013
++fetched: 2026-06-21T06:38:48.612870
+ ---
+ 
+ # Chat Prefix Completion
+
+
+=== guides-fim_completion.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: FIM (Fill-in-the-Middle) Completion
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/fim_completion
+-fetched: 2026-06-21T06:35:53.318401
++fetched: 2026-06-21T06:38:47.735350
+ ---
+ 
+ # FIM (Fill-in-the-Middle) Completion
+
+
+=== guides-json_mode.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: JSON Mode
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/json_mode
+-fetched: 2026-06-21T06:35:45.164799
++fetched: 2026-06-21T06:38:39.572031
+ ---
+ 
+ # JSON Mode
+
+
+=== guides-kv_cache.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: KV Cache Management
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/kv_cache
+-fetched: 2026-06-21T06:35:55.115987
++fetched: 2026-06-21T06:38:49.504215
+ ---
+ 
+ # KV Cache Management
+
+
+=== guides-multi_round_chat.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Multi-Round Chat
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/multi_round_chat
+-fetched: 2026-06-21T06:35:46.069203
++fetched: 2026-06-21T06:38:40.477093
+ ---
+ 
+ # Multi-Round Chat
+
+
+=== guides-thinking_mode.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Thinking / Reasoning Mode
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/thinking_mode
+-fetched: 2026-06-21T06:35:44.263446
++fetched: 2026-06-21T06:38:38.671972
+ ---
+ 
+ # Thinking / Reasoning Mode
+
+
+=== guides-tool_calls.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Tool Calls / Function Calling
+ source: deepseek
+ url: https://api-docs.deepseek.com/guides/tool_calls
+-fetched: 2026-06-21T06:35:43.086005
++fetched: 2026-06-21T06:38:37.624127
+ ---
+ 
+ # Tool Calls / Function Calling
+
+
+=== index.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Your First API Call
+ source: deepseek
+ url: https://api-docs.deepseek.com/
+-fetched: 2026-06-21T06:35:41.191945
++fetched: 2026-06-21T06:38:35.735275
+ ---
+ 
+ # Your First API Call
+
+
+=== news-news260424.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: News — Updates
+ source: deepseek
+ url: https://api-docs.deepseek.com/news/news260424
+-fetched: 2026-06-21T06:35:56.934322
++fetched: 2026-06-21T06:38:51.302996
+ ---
+ 
+ # News — Updates
+
+
+=== quick_start-agent_integrations-claude_code.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Integration — Claude Code
+ source: deepseek
+ url: https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code
+-fetched: 2026-06-21T06:35:56.031896
++fetched: 2026-06-21T06:38:50.425172
+ ---
+ 
+ # Integration — Claude Code
+
+
+=== quick_start-error_codes.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Error Codes
+ source: deepseek
+ url: https://api-docs.deepseek.com/quick_start/error_codes
+-fetched: 2026-06-21T06:35:50.537929
++fetched: 2026-06-21T06:38:45.060337
+ ---
+ 
+ # Error Codes
+
+
+=== quick_start-pricing.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Pricing & Rate Limits
+ source: deepseek
+ url: https://api-docs.deepseek.com/quick_start/pricing
+-fetched: 2026-06-21T06:35:48.737827
++fetched: 2026-06-21T06:38:43.128837
+ ---
+ 
+ # Pricing & Rate Limits
+
+
+=== quick_start-rate_limit.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Rate Limits
+ source: deepseek
+ url: https://api-docs.deepseek.com/quick_start/rate_limit
+-fetched: 2026-06-21T06:35:49.652297
++fetched: 2026-06-21T06:38:44.162657
+ ---
+ 
+ # Rate Limits
+
+
+=== quick_start-token_usage.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Token Usage
+ source: deepseek
+ url: https://api-docs.deepseek.com/quick_start/token_usage
+-fetched: 2026-06-21T06:35:51.413667
++fetched: 2026-06-21T06:38:45.935763
+ ---
+ 
+ # Token Usage
+
+
+=== updates.md ===
+--- v20260621_063558
++++ v20260621_063852
+@@ -2,7 +2,7 @@
+ title: Changelog / Updates
+ source: deepseek
+ url: https://api-docs.deepseek.com/updates
+-fetched: 2026-06-21T06:35:57.853460
++fetched: 2026-06-21T06:38:52.297106
+ ---
+ 
+ # Changelog / Updates

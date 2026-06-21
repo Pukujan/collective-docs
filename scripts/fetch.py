@@ -56,7 +56,13 @@ def fetch_page(url):
 
         html = result.stdout
         if not html or len(html) < 200:
-            return None, "Response too short or empty"
+            return None, f"Response too short or empty ({len(html)} chars)"
+        
+        # Special handling for llms-full.txt (raw text from Mintlify sites)
+        if "llms-full.txt" in url or "llms.txt" in url:
+            # These are already plain text, not HTML — no conversion needed
+            if not html.strip().startswith("<!DOCTYPE") and not html.strip().startswith("<html"):
+                return html, None
 
         # Basic HTML-to-text extraction
         text = html_to_markdown(html)

@@ -16,10 +16,27 @@ import argparse
 import json
 import os
 import sqlite3
+import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent if __file__.endswith("search.py") else Path.cwd()
+LAZY_REFRESH = str(ROOT / "scripts" / "lazy-refresh.py")
+
+
+def auto_fresh(source=None, quiet=True):
+    """Check if docs are stale and refresh if needed. Only does work if >24h old."""
+    cmd = [sys.executable or "python3", LAZY_REFRESH]
+    if source:
+        cmd += ["--source", source]
+    else:
+        cmd += ["--all"]
+    if quiet:
+        cmd += ["--json"]
+    result = subprocess.run(cmd, capture_output=True, text=True, timeout=130)
+    if result.returncode == 0 and not quiet:
+        print(result.stdout, file=sys.stderr, end="")
+    return result.returncode == 0
 
 
 def keyword_search(query, top_k=10, source=None):
@@ -209,6 +226,11 @@ def main():
     parser.add_argument("--source", help="Filter to source")
 
     args = parser.parse_args()
+
+    # Auto-refresh before searching — only fetches if >24h stale
+    if args.keyword or args.semantic or args.hybrid:
+        source_arg = args.source if args.source != "all" else None
+        auto_fresh(source=source_arg, quiet=not args.json)
 
     if args.keyword:
         result = keyword_search(args.keyword, args.top, args.source)

@@ -41,6 +41,28 @@ APIs, and frameworks I use (Hermes, OpenCode, DeepSeek, etc.).
 | `prompt-templates/` | Agent system prompts |
 | `sources/` | YAML configs defining what to fetch |
 
+## Lazy Refresh (on-demand, no cron needed)
+
+Docs auto-fresh when you search — no daily cron burn. The system checks each source's freshness (24h stale threshold) at query time:
+
+1. **`scripts/lazy-refresh.py`** — checks if a source needs updating; only fetches from web if >24h old
+2. **`search/search.py`** calls `lazy-refresh` automatically before every search
+3. **Freshness status**: `python scripts/lazy-refresh.py --status`
+4. **No changes? No refetch.** Uses content hashing — if the source hasn't changed on the web, the index isn't rebuilt
+5. **Zero extra overhead** on fresh docs — lookup is instant SQLite
+6. **SHARD-INDEX.md** at root — when repos exceed 500MB, auto-splits into collective-docs-2, -3, etc.
+
+```bash
+# Check what's fresh/stale
+python scripts/lazy-refresh.py --status
+
+# Force-refresh a specific source
+python scripts/lazy-refresh.py --source hermes --force
+
+# Search auto-freshens as needed (recommended daily use)
+python search/search.py --keyword "delegate_task"
+```
+
 ## Quick commands for agents
 
 ```bash

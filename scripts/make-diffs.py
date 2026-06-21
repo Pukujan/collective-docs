@@ -3,7 +3,7 @@
 make-diffs.py — Compare version snapshots and generate diffs.
 
 For each source, compares the latest version with the previous version.
-Diffs are stored in diffs/<source>/ and kept forever.
+Diffs are stored in <source>/diffs/ and kept forever.
 """
 
 import difflib
@@ -32,7 +32,7 @@ def generate_diff(old_content, new_content, old_version, new_version):
 
 def get_versions(source_name):
     """Get sorted list of version timestamps for a source."""
-    versions_dir = ROOT / 'versions' / source_name
+    versions_dir = ROOT / source_name / 'versions'
     if not versions_dir.exists():
         return []
     return sorted([d.name for d in versions_dir.iterdir() if d.is_dir()])
@@ -45,7 +45,7 @@ def process_source(source_name):
         print(f"  SKIP: Need at least 2 versions, have {len(versions)}")
         return
 
-    diffs_dir = ROOT / 'diffs' / source_name
+    diffs_dir = ROOT / source_name / 'diffs'
     diffs_dir.mkdir(parents=True, exist_ok=True)
 
     old_ver = versions[-2]
@@ -58,8 +58,8 @@ def process_source(source_name):
         print(f"  Diff already exists: {diff_key}")
         return
 
-    old_dir = ROOT / 'versions' / source_name / old_ver
-    new_dir = ROOT / 'versions' / source_name / new_ver
+    old_dir = ROOT / source_name / 'versions' / old_ver
+    new_dir = ROOT / source_name / 'versions' / new_ver
 
     diff_parts = []
     total_changes = 0
@@ -107,9 +107,11 @@ def process_source(source_name):
 def main():
     sources = sys.argv[1:]
     if not sources:
-        versions_root = ROOT / 'versions'
-        if versions_root.exists():
-            sources = [d.name for d in versions_root.iterdir() if d.is_dir()]
+        # Find all source dirs with versions/
+        sources = [
+            d.name for d in ROOT.iterdir()
+            if d.is_dir() and (d / 'versions').exists() and not d.name.startswith('.')
+        ]
 
     if not sources:
         print("No sources found")

@@ -24,8 +24,6 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-HUMAN_DIR = ROOT / "human"
-VERSIONS_DIR = ROOT / "versions"
 STATUS_DIR = ROOT / "status"
 SOURCES_DIR = ROOT / "sources"
 
@@ -184,7 +182,7 @@ def fetch_source(cfg):
     base_url = cfg['homepage'].rstrip('/')
     base_url = re.sub(r'/docs$', '', base_url)
 
-    human_dir = HUMAN_DIR / name
+    human_dir = ROOT / name / 'human'
     human_dir.mkdir(parents=True, exist_ok=True)
 
     status = {
@@ -238,7 +236,7 @@ def fetch_source(cfg):
     # Create version snapshot
     if status['pages_success'] > 0:
         timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
-        version_dir = VERSIONS_DIR / name / timestamp
+        version_dir = ROOT / name / 'versions' / timestamp
         version_dir.mkdir(parents=True, exist_ok=True)
 
         # Copy all fetched pages to version dir

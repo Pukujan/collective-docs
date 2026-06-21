@@ -1,0 +1,144 @@
+# Diff: hermes (20260621_063312 -> 20260621_063914)
+# Generated: 2026-06-21T06:39:40.408416
+# Files changed: 10
+# Total changes: 30 lines
+# Changed files: docs-getting-started-installation.md, docs-getting-started-learning-path.md, docs-getting-started-quickstart.md, docs.md, index.md, docs-getting-started-installation.md, docs-getting-started-learning-path.md, docs-getting-started-quickstart.md, docs.md, index.md
+
+=== docs-getting-started-installation.md ===
+--- v20260621_063312
++++ v20260621_063914
+@@ -2,7 +2,7 @@
+ title: Installation
+ source: hermes
+ url: https://hermes-agent.nousresearch.com/docs/getting-started/installation
+-fetched: 2026-06-21T06:33:11.222385
++fetched: 2026-06-21T06:39:13.292280
+ ---
+ 
+ # Installation
+
+
+=== docs-getting-started-learning-path.md ===
+--- v20260621_063312
++++ v20260621_063914
+@@ -2,7 +2,7 @@
+ title: Learning Path
+ source: hermes
+ url: https://hermes-agent.nousresearch.com/docs/getting-started/learning-path
+-fetched: 2026-06-21T06:33:11.919567
++fetched: 2026-06-21T06:39:13.969181
+ ---
+ 
+ # Learning Path
+
+
+=== docs-getting-started-quickstart.md ===
+--- v20260621_063312
++++ v20260621_063914
+@@ -2,7 +2,7 @@
+ title: Quickstart
+ source: hermes
+ url: https://hermes-agent.nousresearch.com/docs/getting-started/quickstart
+-fetched: 2026-06-21T06:33:10.510753
++fetched: 2026-06-21T06:39:12.625788
+ ---
+ 
+ # Quickstart
+
+
+=== docs.md ===
+--- v20260621_063312
++++ v20260621_063914
+@@ -2,7 +2,7 @@
+ title: Docs — Home
+ source: hermes
+ url: https://hermes-agent.nousresearch.com/docs
+-fetched: 2026-06-21T06:33:09.797511
++fetched: 2026-06-21T06:39:11.953594
+ ---
+ 
+ # Docs — Home
+
+
+=== index.md ===
+--- v20260621_063312
++++ v20260621_063914
+@@ -2,7 +2,7 @@
+ title: Hermes Agent — Home
+ source: hermes
+ url: https://hermes-agent.nousresearch.com/
+-fetched: 2026-06-21T06:33:09.106176
++fetched: 2026-06-21T06:39:11.304957
+ ---
+ 
+ # Hermes Agent — Home
+
+
+=== docs-getting-started-installation.md ===
+--- v20260621_063312
++++ v20260621_063914
+@@ -2,7 +2,7 @@
+ title: Installation
+ source: hermes
+ url: https://hermes-agent.nousresearch.com/docs/getting-started/installation
+-fetched: 2026-06-21T06:33:11.222385
++fetched: 2026-06-21T06:39:13.292280
+ ---
+ 
+ # Installation
+
+
+=== docs-getting-started-learning-path.md ===
+--- v20260621_063312
++++ v20260621_063914
+@@ -2,7 +2,7 @@
+ title: Learning Path
+ source: hermes
+ url: https://hermes-agent.nousresearch.com/docs/getting-started/learning-path
+-fetched: 2026-06-21T06:33:11.919567
++fetched: 2026-06-21T06:39:13.969181
+ ---
+ 
+ # Learning Path
+
+
+=== docs-getting-started-quickstart.md ===
+--- v20260621_063312
++++ v20260621_063914
+@@ -2,7 +2,7 @@
+ title: Quickstart
+ source: hermes
+ url: https://hermes-agent.nousresearch.com/docs/getting-started/quickstart
+-fetched: 2026-06-21T06:33:10.510753
++fetched: 2026-06-21T06:39:12.625788
+ ---
+ 
+ # Quickstart
+
+
+=== docs.md ===
+--- v20260621_063312
++++ v20260621_063914
+@@ -2,7 +2,7 @@
+ title: Docs — Home
+ source: hermes
+ url: https://hermes-agent.nousresearch.com/docs
+-fetched: 2026-06-21T06:33:09.797511
++fetched: 2026-06-21T06:39:11.953594
+ ---
+ 
+ # Docs — Home
+
+
+=== index.md ===
+--- v20260621_063312
++++ v20260621_063914
+@@ -2,7 +2,7 @@
+ title: Hermes Agent — Home
+ source: hermes
+ url: https://hermes-agent.nousresearch.com/
+-fetched: 2026-06-21T06:33:09.106176
++fetched: 2026-06-21T06:39:11.304957
+ ---
+ 
+ # Hermes Agent — Home

@@ -1,0 +1,312 @@
+# Diff: github (20260621_063606 -> 20260621_063910)
+# Generated: 2026-06-21T06:39:40.346901
+# Files changed: 22
+# Total changes: 66 lines
+# Changed files: en-actions-hosting-your-own-runners.md, en-actions-security-for-github-actions.md, en-actions-tutorials.md, en-actions-writing-workflows-workflow-syntax-for-github-actions.md, en-actions-writing-workflows.md, en-actions.md, en-rest-actions.md, en-rest-issues.md, en-rest-releases.md, en-rest-repos.md, en-rest.md, en-actions-hosting-your-own-runners.md, en-actions-security-for-github-actions.md, en-actions-tutorials.md, en-actions-writing-workflows-workflow-syntax-for-github-actions.md, en-actions-writing-workflows.md, en-actions.md, en-rest-actions.md, en-rest-issues.md, en-rest-releases.md, en-rest-repos.md, en-rest.md
+
+=== en-actions-hosting-your-own-runners.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: Hosting Your Own Runners
+ source: github
+ url: https://docs.github.com/en/actions/hosting-your-own-runners
+-fetched: 2026-06-21T06:36:06.348858
++fetched: 2026-06-21T06:39:10.210265
+ ---
+ 
+ # Hosting Your Own Runners
+
+
+=== en-actions-security-for-github-actions.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: Security for GitHub Actions
+ source: github
+ url: https://docs.github.com/en/actions/security-for-github-actions
+-fetched: 2026-06-21T06:36:05.063181
++fetched: 2026-06-21T06:39:08.718984
+ ---
+ 
+ # Security for GitHub Actions
+
+
+=== en-actions-tutorials.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: Actions Tutorials
+ source: github
+ url: https://docs.github.com/en/actions/tutorials
+-fetched: 2026-06-21T06:36:05.698080
++fetched: 2026-06-21T06:39:09.560034
+ ---
+ 
+ # Actions Tutorials
+
+
+=== en-actions-writing-workflows-workflow-syntax-for-github-actions.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: Workflow Syntax for GitHub Actions
+ source: github
+ url: https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions
+-fetched: 2026-06-21T06:36:02.862681
++fetched: 2026-06-21T06:39:06.764408
+ ---
+ 
+ # Workflow Syntax for GitHub Actions
+
+
+=== en-actions-writing-workflows.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: Writing Workflows
+ source: github
+ url: https://docs.github.com/en/actions/writing-workflows
+-fetched: 2026-06-21T06:36:04.192139
++fetched: 2026-06-21T06:39:08.063483
+ ---
+ 
+ # Writing Workflows
+
+
+=== en-actions.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: GitHub Actions — Documentation
+ source: github
+ url: https://docs.github.com/en/actions
+-fetched: 2026-06-21T06:36:03.521233
++fetched: 2026-06-21T06:39:07.405053
+ ---
+ 
+ # GitHub Actions — Documentation
+
+
+=== en-rest-actions.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: REST API — Actions
+ source: github
+ url: https://docs.github.com/en/rest/actions
+-fetched: 2026-06-21T06:36:00.628102
++fetched: 2026-06-21T06:39:04.718558
+ ---
+ 
+ # REST API — Actions
+
+
+=== en-rest-issues.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: REST API — Issues
+ source: github
+ url: https://docs.github.com/en/rest/issues
+-fetched: 2026-06-21T06:36:01.291223
++fetched: 2026-06-21T06:39:05.375412
+ ---
+ 
+ # REST API — Issues
+
+
+=== en-rest-releases.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: REST API — Releases
+ source: github
+ url: https://docs.github.com/en/rest/releases
+-fetched: 2026-06-21T06:36:02.088752
++fetched: 2026-06-21T06:39:06.012182
+ ---
+ 
+ # REST API — Releases
+
+
+=== en-rest-repos.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: REST API — Repos
+ source: github
+ url: https://docs.github.com/en/rest/repos
+-fetched: 2026-06-21T06:35:59.828676
++fetched: 2026-06-21T06:39:04.050757
+ ---
+ 
+ # REST API — Repos
+
+
+=== en-rest.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: GitHub REST API — Overview
+ source: github
+ url: https://docs.github.com/en/rest
+-fetched: 2026-06-21T06:35:59.009559
++fetched: 2026-06-21T06:39:03.383893
+ ---
+ 
+ # GitHub REST API — Overview
+
+
+=== en-actions-hosting-your-own-runners.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: Hosting Your Own Runners
+ source: github
+ url: https://docs.github.com/en/actions/hosting-your-own-runners
+-fetched: 2026-06-21T06:36:06.348858
++fetched: 2026-06-21T06:39:10.210265
+ ---
+ 
+ # Hosting Your Own Runners
+
+
+=== en-actions-security-for-github-actions.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: Security for GitHub Actions
+ source: github
+ url: https://docs.github.com/en/actions/security-for-github-actions
+-fetched: 2026-06-21T06:36:05.063181
++fetched: 2026-06-21T06:39:08.718984
+ ---
+ 
+ # Security for GitHub Actions
+
+
+=== en-actions-tutorials.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: Actions Tutorials
+ source: github
+ url: https://docs.github.com/en/actions/tutorials
+-fetched: 2026-06-21T06:36:05.698080
++fetched: 2026-06-21T06:39:09.560034
+ ---
+ 
+ # Actions Tutorials
+
+
+=== en-actions-writing-workflows-workflow-syntax-for-github-actions.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: Workflow Syntax for GitHub Actions
+ source: github
+ url: https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions
+-fetched: 2026-06-21T06:36:02.862681
++fetched: 2026-06-21T06:39:06.764408
+ ---
+ 
+ # Workflow Syntax for GitHub Actions
+
+
+=== en-actions-writing-workflows.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: Writing Workflows
+ source: github
+ url: https://docs.github.com/en/actions/writing-workflows
+-fetched: 2026-06-21T06:36:04.192139
++fetched: 2026-06-21T06:39:08.063483
+ ---
+ 
+ # Writing Workflows
+
+
+=== en-actions.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: GitHub Actions — Documentation
+ source: github
+ url: https://docs.github.com/en/actions
+-fetched: 2026-06-21T06:36:03.521233
++fetched: 2026-06-21T06:39:07.405053
+ ---
+ 
+ # GitHub Actions — Documentation
+
+
+=== en-rest-actions.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: REST API — Actions
+ source: github
+ url: https://docs.github.com/en/rest/actions
+-fetched: 2026-06-21T06:36:00.628102
++fetched: 2026-06-21T06:39:04.718558
+ ---
+ 
+ # REST API — Actions
+
+
+=== en-rest-issues.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: REST API — Issues
+ source: github
+ url: https://docs.github.com/en/rest/issues
+-fetched: 2026-06-21T06:36:01.291223
++fetched: 2026-06-21T06:39:05.375412
+ ---
+ 
+ # REST API — Issues
+
+
+=== en-rest-releases.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: REST API — Releases
+ source: github
+ url: https://docs.github.com/en/rest/releases
+-fetched: 2026-06-21T06:36:02.088752
++fetched: 2026-06-21T06:39:06.012182
+ ---
+ 
+ # REST API — Releases
+
+
+=== en-rest-repos.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: REST API — Repos
+ source: github
+ url: https://docs.github.com/en/rest/repos
+-fetched: 2026-06-21T06:35:59.828676
++fetched: 2026-06-21T06:39:04.050757
+ ---
+ 
+ # REST API — Repos
+
+
+=== en-rest.md ===
+--- v20260621_063606
++++ v20260621_063910
+@@ -2,7 +2,7 @@
+ title: GitHub REST API — Overview
+ source: github
+ url: https://docs.github.com/en/rest
+-fetched: 2026-06-21T06:35:59.009559
++fetched: 2026-06-21T06:39:03.383893
+ ---
+ 
+ # GitHub REST API — Overview

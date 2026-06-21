@@ -104,8 +104,8 @@ def refresh_source(source_name, force=False):
     status_path = STATUS_DIR / source_name / "status.json"
     prev_hash = freshness.get(source_name, {}).get("content_hash")
 
-    # Simple hash: sum of file sizes in human/<source>/
-    human_dir = ROOT / "human" / source_name
+    # Simple hash: sum of file sizes in <source>/human/
+    human_dir = ROOT / source_name / "human"
     current_hash = ""
     if human_dir.exists():
         total = 0

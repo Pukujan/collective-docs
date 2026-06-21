@@ -3,581 +3,581 @@
     "source": "deepseek",
     "path": "deepseek/api-deepseek-api",
     "title": "API Reference \u2014 DeepSeek API",
-    "file": "agent\\deepseek\\api-deepseek-api.md",
+    "file": "deepseek\\agent\\api-deepseek-api.md",
     "char_count": 805
   },
   {
     "source": "deepseek",
     "path": "deepseek/api-list-models",
     "title": "API \u2014 List Models",
-    "file": "agent\\deepseek\\api-list-models.md",
+    "file": "deepseek\\agent\\api-list-models.md",
     "char_count": 1233
   },
   {
     "source": "deepseek",
     "path": "deepseek/faq",
     "title": "FAQ",
-    "file": "agent\\deepseek\\faq.md",
+    "file": "deepseek\\agent\\faq.md",
     "char_count": 6323
   },
   {
     "source": "deepseek",
     "path": "deepseek/guides-anthropic_api",
     "title": "Anthropic-Compatible API",
-    "file": "agent\\deepseek\\guides-anthropic_api.md",
+    "file": "deepseek\\agent\\guides-anthropic_api.md",
     "char_count": 4970
   },
   {
     "source": "deepseek",
     "path": "deepseek/guides-chat_prefix_completion",
     "title": "Chat Prefix Completion",
-    "file": "agent\\deepseek\\guides-chat_prefix_completion.md",
+    "file": "deepseek\\agent\\guides-chat_prefix_completion.md",
     "char_count": 1471
   },
   {
     "source": "deepseek",
     "path": "deepseek/guides-fim_completion",
     "title": "FIM (Fill-in-the-Middle) Completion",
-    "file": "agent\\deepseek\\guides-fim_completion.md",
+    "file": "deepseek\\agent\\guides-fim_completion.md",
     "char_count": 1579
   },
   {
     "source": "deepseek",
     "path": "deepseek/guides-json_mode",
     "title": "JSON Mode",
-    "file": "agent\\deepseek\\guides-json_mode.md",
+    "file": "deepseek\\agent\\guides-json_mode.md",
     "char_count": 2034
   },
   {
     "source": "deepseek",
     "path": "deepseek/guides-kv_cache",
     "title": "KV Cache Management",
-    "file": "agent\\deepseek\\guides-kv_cache.md",
+    "file": "deepseek\\agent\\guides-kv_cache.md",
     "char_count": 5778
   },
   {
     "source": "deepseek",
     "path": "deepseek/guides-multi_round_chat",
     "title": "Multi-Round Chat",
-    "file": "agent\\deepseek\\guides-multi_round_chat.md",
+    "file": "deepseek\\agent\\guides-multi_round_chat.md",
     "char_count": 1913
   },
   {
     "source": "deepseek",
     "path": "deepseek/guides-thinking_mode",
     "title": "Thinking / Reasoning Mode",
-    "file": "agent\\deepseek\\guides-thinking_mode.md",
+    "file": "deepseek\\agent\\guides-thinking_mode.md",
     "char_count": 11868
   },
   {
     "source": "deepseek",
     "path": "deepseek/guides-tool_calls",
     "title": "Tool Calls / Function Calling",
-    "file": "agent\\deepseek\\guides-tool_calls.md",
+    "file": "deepseek\\agent\\guides-tool_calls.md",
     "char_count": 8766
   },
   {
     "source": "deepseek",
     "path": "deepseek/index",
     "title": "Your First API Call",
-    "file": "agent\\deepseek\\index.md",
+    "file": "deepseek\\agent\\index.md",
     "char_count": 3365
   },
   {
     "source": "deepseek",
     "path": "deepseek/news-news260424",
     "title": "News \u2014 Updates",
-    "file": "agent\\deepseek\\news-news260424.md",
+    "file": "deepseek\\agent\\news-news260424.md",
     "char_count": 3527
   },
   {
     "source": "deepseek",
     "path": "deepseek/quick_start-agent_integrations-claude_code",
     "title": "Integration \u2014 Claude Code",
-    "file": "agent\\deepseek\\quick_start-agent_integrations-claude_code.md",
+    "file": "deepseek\\agent\\quick_start-agent_integrations-claude_code.md",
     "char_count": 5138
   },
   {
     "source": "deepseek",
     "path": "deepseek/quick_start-error_codes",
     "title": "Error Codes",
-    "file": "agent\\deepseek\\quick_start-error_codes.md",
+    "file": "deepseek\\agent\\quick_start-error_codes.md",
     "char_count": 1883
   },
   {
     "source": "deepseek",
     "path": "deepseek/quick_start-pricing",
     "title": "Pricing & Rate Limits",
-    "file": "agent\\deepseek\\quick_start-pricing.md",
+    "file": "deepseek\\agent\\quick_start-pricing.md",
     "char_count": 2274
   },
   {
     "source": "deepseek",
     "path": "deepseek/quick_start-rate_limit",
     "title": "Rate Limits",
-    "file": "agent\\deepseek\\quick_start-rate_limit.md",
+    "file": "deepseek\\agent\\quick_start-rate_limit.md",
     "char_count": 4359
   },
   {
     "source": "deepseek",
     "path": "deepseek/quick_start-token_usage",
     "title": "Token Usage",
-    "file": "agent\\deepseek\\quick_start-token_usage.md",
+    "file": "deepseek\\agent\\quick_start-token_usage.md",
     "char_count": 1188
   },
   {
     "source": "deepseek",
     "path": "deepseek/updates",
     "title": "Changelog / Updates",
-    "file": "agent\\deepseek\\updates.md",
+    "file": "deepseek\\agent\\updates.md",
     "char_count": 11696
   },
   {
     "source": "docker",
     "path": "docker/build",
     "title": "Docker Build",
-    "file": "agent\\docker\\build.md",
+    "file": "docker\\agent\\build.md",
     "char_count": 16211
   },
   {
     "source": "docker",
     "path": "docker/compose",
     "title": "Docker Compose",
-    "file": "agent\\docker\\compose.md",
+    "file": "docker\\agent\\compose.md",
     "char_count": 16561
   },
   {
     "source": "docker",
     "path": "docker/engine",
     "title": "Docker Engine",
-    "file": "agent\\docker\\engine.md",
+    "file": "docker\\agent\\engine.md",
     "char_count": 16714
   },
   {
     "source": "docker",
     "path": "docker/index",
     "title": "Docker Docs \u2014 Home",
-    "file": "agent\\docker\\index.md",
+    "file": "docker\\agent\\index.md",
     "char_count": 574
   },
   {
     "source": "docker",
     "path": "docker/reference",
     "title": "Docker Reference",
-    "file": "agent\\docker\\reference.md",
+    "file": "docker\\agent\\reference.md",
     "char_count": 15494
   },
   {
     "source": "gh-cli",
     "path": "gh-cli/manual-gh_issue",
     "title": "gh issue \u2014 Issue commands",
-    "file": "agent\\gh-cli\\manual-gh_issue.md",
+    "file": "gh-cli\\agent\\manual-gh_issue.md",
     "char_count": 207
   },
   {
     "source": "gh-cli",
     "path": "gh-cli/manual-gh_pr",
     "title": "gh pr \u2014 Pull Request commands",
-    "file": "agent\\gh-cli\\manual-gh_pr.md",
+    "file": "gh-cli\\agent\\manual-gh_pr.md",
     "char_count": 211
   },
   {
     "source": "gh-cli",
     "path": "gh-cli/manual-gh_release",
     "title": "gh release \u2014 Release commands",
-    "file": "agent\\gh-cli\\manual-gh_release.md",
+    "file": "gh-cli\\agent\\manual-gh_release.md",
     "char_count": 211
   },
   {
     "source": "gh-cli",
     "path": "gh-cli/manual-gh_repo",
     "title": "gh repo \u2014 Repository commands",
-    "file": "agent\\gh-cli\\manual-gh_repo.md",
+    "file": "gh-cli\\agent\\manual-gh_repo.md",
     "char_count": 211
   },
   {
     "source": "gh-cli",
     "path": "gh-cli/manual-gh_run",
     "title": "gh run \u2014 Workflow Run commands",
-    "file": "agent\\gh-cli\\manual-gh_run.md",
+    "file": "gh-cli\\agent\\manual-gh_run.md",
     "char_count": 212
   },
   {
     "source": "gh-cli",
     "path": "gh-cli/manual-gh_secret",
     "title": "gh secret \u2014 Secret commands",
-    "file": "agent\\gh-cli\\manual-gh_secret.md",
+    "file": "gh-cli\\agent\\manual-gh_secret.md",
     "char_count": 209
   },
   {
     "source": "gh-cli",
     "path": "gh-cli/manual-gh_workflow",
     "title": "gh workflow \u2014 Workflow commands",
-    "file": "agent\\gh-cli\\manual-gh_workflow.md",
+    "file": "gh-cli\\agent\\manual-gh_workflow.md",
     "char_count": 213
   },
   {
     "source": "gh-cli",
     "path": "gh-cli/manual",
     "title": "gh CLI Manual \u2014 Overview",
-    "file": "agent\\gh-cli\\manual.md",
+    "file": "gh-cli\\agent\\manual.md",
     "char_count": 206
   },
   {
     "source": "github",
     "path": "github/en-actions-hosting-your-own-runners",
     "title": "Hosting Your Own Runners",
-    "file": "agent\\github\\en-actions-hosting-your-own-runners.md",
+    "file": "github\\agent\\en-actions-hosting-your-own-runners.md",
     "char_count": 2373
   },
   {
     "source": "github",
     "path": "github/en-actions-security-for-github-actions",
     "title": "Security for GitHub Actions",
-    "file": "agent\\github\\en-actions-security-for-github-actions.md",
+    "file": "github\\agent\\en-actions-security-for-github-actions.md",
     "char_count": 724
   },
   {
     "source": "github",
     "path": "github/en-actions-tutorials",
     "title": "Actions Tutorials",
-    "file": "agent\\github\\en-actions-tutorials.md",
+    "file": "github\\agent\\en-actions-tutorials.md",
     "char_count": 4113
   },
   {
     "source": "github",
     "path": "github/en-actions-writing-workflows-workflow-syntax-for-github-actions",
     "title": "Workflow Syntax for GitHub Actions",
-    "file": "agent\\github\\en-actions-writing-workflows-workflow-syntax-for-github-actions.md",
+    "file": "github\\agent\\en-actions-writing-workflows-workflow-syntax-for-github-actions.md",
     "char_count": 167466
   },
   {
     "source": "github",
     "path": "github/en-actions-writing-workflows",
     "title": "Writing Workflows",
-    "file": "agent\\github\\en-actions-writing-workflows.md",
+    "file": "github\\agent\\en-actions-writing-workflows.md",
     "char_count": 1032
   },
   {
     "source": "github",
     "path": "github/en-actions",
     "title": "GitHub Actions \u2014 Documentation",
-    "file": "agent\\github\\en-actions.md",
+    "file": "github\\agent\\en-actions.md",
     "char_count": 2979
   },
   {
     "source": "github",
     "path": "github/en-rest-actions",
     "title": "REST API \u2014 Actions",
-    "file": "agent\\github\\en-rest-actions.md",
+    "file": "github\\agent\\en-rest-actions.md",
     "char_count": 27066
   },
   {
     "source": "github",
     "path": "github/en-rest-issues",
     "title": "REST API \u2014 Issues",
-    "file": "agent\\github\\en-rest-issues.md",
+    "file": "github\\agent\\en-rest-issues.md",
     "char_count": 5604
   },
   {
     "source": "github",
     "path": "github/en-rest-releases",
     "title": "REST API \u2014 Releases",
-    "file": "agent\\github\\en-rest-releases.md",
+    "file": "github\\agent\\en-rest-releases.md",
     "char_count": 1416
   },
   {
     "source": "github",
     "path": "github/en-rest-repos",
     "title": "REST API \u2014 Repos",
-    "file": "agent\\github\\en-rest-repos.md",
+    "file": "github\\agent\\en-rest-repos.md",
     "char_count": 7852
   },
   {
     "source": "github",
     "path": "github/en-rest",
     "title": "GitHub REST API \u2014 Overview",
-    "file": "agent\\github\\en-rest.md",
+    "file": "github\\agent\\en-rest.md",
     "char_count": 2472
   },
   {
     "source": "hermes",
     "path": "hermes/_skill-docs",
     "title": "Hermes Agent",
-    "file": "agent\\hermes\\_skill-docs.md",
+    "file": "hermes\\agent\\_skill-docs.md",
     "char_count": 45856
   },
   {
     "source": "hermes",
     "path": "hermes/docs-getting-started-installation",
     "title": "Installation",
-    "file": "agent\\hermes\\docs-getting-started-installation.md",
+    "file": "hermes\\agent\\docs-getting-started-installation.md",
     "char_count": 8786
   },
   {
     "source": "hermes",
     "path": "hermes/docs-getting-started-learning-path",
     "title": "Learning Path",
-    "file": "agent\\hermes\\docs-getting-started-learning-path.md",
+    "file": "hermes\\agent\\docs-getting-started-learning-path.md",
     "char_count": 9603
   },
   {
     "source": "hermes",
     "path": "hermes/docs-getting-started-quickstart",
     "title": "Quickstart",
-    "file": "agent\\hermes\\docs-getting-started-quickstart.md",
+    "file": "hermes\\agent\\docs-getting-started-quickstart.md",
     "char_count": 19566
   },
   {
     "source": "hermes",
     "path": "hermes/docs",
     "title": "Docs \u2014 Home",
-    "file": "agent\\hermes\\docs.md",
+    "file": "hermes\\agent\\docs.md",
     "char_count": 6609
   },
   {
     "source": "hermes",
     "path": "hermes/index",
     "title": "Hermes Agent \u2014 Home",
-    "file": "agent\\hermes\\index.md",
+    "file": "hermes\\agent\\index.md",
     "char_count": 3287
   },
   {
     "source": "mcp",
     "path": "mcp/index",
     "title": "MCP \u2014 Home",
-    "file": "agent\\mcp\\index.md",
+    "file": "mcp\\agent\\index.md",
     "char_count": 2418
   },
   {
     "source": "mcp",
     "path": "mcp/introduction",
     "title": "Introduction",
-    "file": "agent\\mcp\\introduction.md",
+    "file": "mcp\\agent\\introduction.md",
     "char_count": 2420
   },
   {
     "source": "mcp",
     "path": "mcp/llms-full.txt",
     "title": "MCP \u2014 llms-full.txt (Full Documentation)",
-    "file": "agent\\mcp\\llms-full.txt.md",
+    "file": "mcp\\agent\\llms-full.txt.md",
     "char_count": 1907734
   },
   {
     "source": "mcp",
     "path": "mcp/llms.txt",
     "title": "MCP \u2014 llms.txt (Document Index)",
-    "file": "agent\\mcp\\llms.txt.md",
+    "file": "mcp\\agent\\llms.txt.md",
     "char_count": 18922
   },
   {
     "source": "mcp",
     "path": "mcp/specification-latest",
     "title": "Specification",
-    "file": "agent\\mcp\\specification-latest.md",
+    "file": "mcp\\agent\\specification-latest.md",
     "char_count": 4568
   },
   {
     "source": "nixpacks",
     "path": "nixpacks/docs-cli",
     "title": "CLI Reference",
-    "file": "agent\\nixpacks\\docs-cli.md",
+    "file": "nixpacks\\agent\\docs-cli.md",
     "char_count": 2934
   },
   {
     "source": "nixpacks",
     "path": "nixpacks/docs-configuration",
     "title": "Configuration",
-    "file": "agent\\nixpacks\\docs-configuration.md",
+    "file": "nixpacks\\agent\\docs-configuration.md",
     "char_count": 54
   },
   {
     "source": "nixpacks",
     "path": "nixpacks/docs-getting-started",
     "title": "Getting Started",
-    "file": "agent\\nixpacks\\docs-getting-started.md",
+    "file": "nixpacks\\agent\\docs-getting-started.md",
     "char_count": 1298
   },
   {
     "source": "nixpacks",
     "path": "nixpacks/docs-providers",
     "title": "Providers",
-    "file": "agent\\nixpacks\\docs-providers.md",
+    "file": "nixpacks\\agent\\docs-providers.md",
     "char_count": 334
   },
   {
     "source": "nixpacks",
     "path": "nixpacks/docs",
     "title": "Introduction",
-    "file": "agent\\nixpacks\\docs.md",
+    "file": "nixpacks\\agent\\docs.md",
     "char_count": 1106
   },
   {
     "source": "railway",
     "path": "railway/build-deploy",
     "title": "Build & Deploy",
-    "file": "agent\\railway\\build-deploy.md",
+    "file": "railway\\agent\\build-deploy.md",
     "char_count": 2180
   },
   {
     "source": "railway",
     "path": "railway/builds-build-configuration",
     "title": "Build Configuration",
-    "file": "agent\\railway\\builds-build-configuration.md",
+    "file": "railway\\agent\\builds-build-configuration.md",
     "char_count": 4636
   },
   {
     "source": "railway",
     "path": "railway/builds-dockerfiles",
     "title": "Dockerfiles on Railway",
-    "file": "agent\\railway\\builds-dockerfiles.md",
+    "file": "railway\\agent\\builds-dockerfiles.md",
     "char_count": 3064
   },
   {
     "source": "railway",
     "path": "railway/builds-railpack",
     "title": "Railpack \u2014 Zero-Config Builds",
-    "file": "agent\\railway\\builds-railpack.md",
+    "file": "railway\\agent\\builds-railpack.md",
     "char_count": 2188
   },
   {
     "source": "railway",
     "path": "railway/builds",
     "title": "Builds \u2014 Configuration & Options",
-    "file": "agent\\railway\\builds.md",
+    "file": "railway\\agent\\builds.md",
     "char_count": 1195
   },
   {
     "source": "railway",
     "path": "railway/cli",
     "title": "CLI Reference",
-    "file": "agent\\railway\\cli.md",
+    "file": "railway\\agent\\cli.md",
     "char_count": 4962
   },
   {
     "source": "railway",
     "path": "railway/guides-docker-compose",
     "title": "Guide \u2014 Docker Compose",
-    "file": "agent\\railway\\guides-docker-compose.md",
+    "file": "railway\\agent\\guides-docker-compose.md",
     "char_count": 7215
   },
   {
     "source": "railway",
     "path": "railway/guides-express",
     "title": "Guide \u2014 Express",
-    "file": "agent\\railway\\guides-express.md",
+    "file": "railway\\agent\\guides-express.md",
     "char_count": 8018
   },
   {
     "source": "railway",
     "path": "railway/guides-nextjs",
     "title": "Guide \u2014 Next.js",
-    "file": "agent\\railway\\guides-nextjs.md",
+    "file": "railway\\agent\\guides-nextjs.md",
     "char_count": 7545
   },
   {
     "source": "railway",
     "path": "railway/guides",
     "title": "Deployment Guides \u2014 Index",
-    "file": "agent\\railway\\guides.md",
+    "file": "railway\\agent\\guides.md",
     "char_count": 8394
   },
   {
     "source": "railway",
     "path": "railway/index",
     "title": "Railway Documentation \u2014 Home",
-    "file": "agent\\railway\\index.md",
+    "file": "railway\\agent\\index.md",
     "char_count": 1942
   },
   {
     "source": "railway",
     "path": "railway/quick-start",
     "title": "Quick Start Tutorial",
-    "file": "agent\\railway\\quick-start.md",
+    "file": "railway\\agent\\quick-start.md",
     "char_count": 10721
   },
   {
     "source": "uv",
     "path": "uv/getting-started",
     "title": "Getting Started",
-    "file": "agent\\uv\\getting-started.md",
+    "file": "uv\\agent\\getting-started.md",
     "char_count": 5406
   },
   {
     "source": "uv",
     "path": "uv/guides",
     "title": "Guides",
-    "file": "agent\\uv\\guides.md",
+    "file": "uv\\agent\\guides.md",
     "char_count": 5235
   },
   {
     "source": "uv",
     "path": "uv/index",
     "title": "uv \u2014 Overview & Getting Started",
-    "file": "agent\\uv\\index.md",
+    "file": "uv\\agent\\index.md",
     "char_count": 13598
   },
   {
     "source": "uv",
     "path": "uv/pip-compile",
     "title": "pip-compile / Locking Dependencies",
-    "file": "agent\\uv\\pip-compile.md",
+    "file": "uv\\agent\\pip-compile.md",
     "char_count": 13941
   },
   {
     "source": "uv",
     "path": "uv/pip",
     "title": "pip Interface",
-    "file": "agent\\uv\\pip.md",
+    "file": "uv\\agent\\pip.md",
     "char_count": 6270
   },
   {
     "source": "vercel",
     "path": "vercel/docs-cli",
     "title": "Vercel CLI \u2014 Overview & Commands",
-    "file": "agent\\vercel\\docs-cli.md",
+    "file": "vercel\\agent\\docs-cli.md",
     "char_count": 28872
   },
   {
     "source": "vercel",
     "path": "vercel/docs-deployments",
     "title": "Deploying to Vercel",
-    "file": "agent\\vercel\\docs-deployments.md",
+    "file": "vercel\\agent\\docs-deployments.md",
     "char_count": 13442
   },
   {
     "source": "vercel",
     "path": "vercel/docs-frameworks",
     "title": "Framework Documentation",
-    "file": "agent\\vercel\\docs-frameworks.md",
+    "file": "vercel\\agent\\docs-frameworks.md",
     "char_count": 7873
   },
   {
     "source": "vercel",
     "path": "vercel/docs-projects",
     "title": "Projects Overview",
-    "file": "agent\\vercel\\docs-projects.md",
+    "file": "vercel\\agent\\docs-projects.md",
     "char_count": 4495
   },
   {
     "source": "vercel",
     "path": "vercel/docs-rest-api",
     "title": "Vercel REST API Reference",
-    "file": "agent\\vercel\\docs-rest-api.md",
+    "file": "vercel\\agent\\docs-rest-api.md",
     "char_count": 2417
   },
   {
     "source": "vercel",
     "path": "vercel/docs-security",
     "title": "Security Documentation",
-    "file": "agent\\vercel\\docs-security.md",
+    "file": "vercel\\agent\\docs-security.md",
     "char_count": 5855
   },
   {
     "source": "vercel",
     "path": "vercel/docs",
     "title": "Docs Home \u2014 Ship anything with Vercel",
-    "file": "agent\\vercel\\docs.md",
+    "file": "vercel\\agent\\docs.md",
     "char_count": 9512
   }
 ]

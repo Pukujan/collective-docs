@@ -7,10 +7,10 @@ APIs, and frameworks I use (Hermes, OpenCode, DeepSeek, etc.).
 
 1. **Search local first.** Before making any web request for documentation, run:
    `python search/search.py "your question here"`
-   or use ripgrep: `rg -i "your query" agent/`
+   or use ripgrep: `rg -i "your query" */agent/`
 
-2. **Use agent/ not human/.** The `agent/` directories contain stripped, token-efficient
-   markdown optimized for LLM consumption. `human/` has full formatting with code blocks.
+2. **Use agent/ not human/.** The `<source>/agent/` directories contain stripped, token-efficient
+   markdown optimized for LLM consumption. `<source>/human/` has full formatting with code blocks.
 
 3. **Read the llms.txt** at the project root for a structured index of what's available.
 
@@ -30,12 +30,12 @@ APIs, and frameworks I use (Hermes, OpenCode, DeepSeek, etc.).
 
 | Path | Purpose |
 |------|---------|
-| `agent/<source>/` | Token-optimized docs for LLMs |
-| `human/<source>/` | Full human-readable markdown |
-| `versions/<source>/` | Last 5 full snapshots (pruned) |
-| `diffs/<source>/` | All changes between versions (keep forever) |
+| `<source>/agent/` | Token-optimized docs for LLMs |
+| `<source>/human/` | Full human-readable markdown |
+| `<source>/versions/` | Last 5 full snapshots (pruned) |
+| `<source>/diffs/` | All changes between versions (keep forever) |
+| `<source>/summaries/` | Update summaries / TL;DR |
 | `search/` | FTS5 keyword + vector semantic search |
-| `summaries/<source>/` | Update summaries / TL;DR |
 | `cross-refs/` | Inter-source relationship graph |
 | `status/` | Per-source health and freshness |
 | `prompt-templates/` | Agent system prompts |
@@ -73,7 +73,7 @@ python search/search.py --keyword "rate limit"
 python search/search.py --semantic "how do I configure providers"
 
 # Find in agent docs
-rg -i "api key" agent/
+rg -i "api key" */agent/
 
 # What changed recently
 cat summaries/hermes/latest.md

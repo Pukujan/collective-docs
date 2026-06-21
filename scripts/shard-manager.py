@@ -130,8 +130,8 @@ def cmd_plan():
 
     # Check which sources have the most versions
     src_sizes = {}
-    for d in (ROOT / "versions").iterdir():
-        if d.is_dir():
+    for d in ROOT.iterdir():
+        if d.is_dir() and (d / 'versions').exists() and not d.name.startswith('.'):
             size = sum(f.stat().st_size for f in d.rglob("*") if f.is_file())
             src_sizes[d.name] = format(size / (1024*1024), ".2f")
 
@@ -161,8 +161,8 @@ def cmd_apply(force=False):
 
     # Find which sources are the largest (the ones to move)
     src_sizes = []
-    for d in (ROOT / "versions").iterdir():
-        if d.is_dir():
+    for d in ROOT.iterdir():
+        if d.is_dir() and (d / 'versions').exists() and not d.name.startswith('.'):
             total = sum(f.stat().st_size for f in d.rglob("*") if f.is_file())
             src_sizes.append((total, d.name))
 
@@ -172,7 +172,7 @@ def cmd_apply(force=False):
     moved_dirs = []
     half_point = len(src_sizes) // 2
     for _, src_name in src_sizes[:max(half_point, 2)]:
-        src_path = ROOT / "human" / src_name
+        src_path = ROOT / src_name / "human"
         if src_path.exists():
             dest = repo_path / "human" / src_name
             dest.parent.mkdir(parents=True, exist_ok=True)

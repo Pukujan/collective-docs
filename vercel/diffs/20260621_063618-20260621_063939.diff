@@ -1,0 +1,200 @@
+# Diff: vercel (20260621_063618 -> 20260621_063939)
+# Generated: 2026-06-21T06:39:41.159053
+# Files changed: 14
+# Total changes: 42 lines
+# Changed files: docs-cli.md, docs-deployments.md, docs-frameworks.md, docs-projects.md, docs-rest-api.md, docs-security.md, docs.md, docs-cli.md, docs-deployments.md, docs-frameworks.md, docs-projects.md, docs-rest-api.md, docs-security.md, docs.md
+
+=== docs-cli.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Vercel CLI — Overview & Commands
+ source: vercel
+ url: https://vercel.com/docs/cli
+-fetched: 2026-06-21T06:36:13.598845
++fetched: 2026-06-21T06:39:34.814926
+ ---
+ 
+ # Vercel CLI — Overview & Commands
+
+
+=== docs-deployments.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Deploying to Vercel
+ source: vercel
+ url: https://vercel.com/docs/deployments
+-fetched: 2026-06-21T06:36:14.680660
++fetched: 2026-06-21T06:39:35.582671
+ ---
+ 
+ # Deploying to Vercel
+
+
+=== docs-frameworks.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Framework Documentation
+ source: vercel
+ url: https://vercel.com/docs/frameworks
+-fetched: 2026-06-21T06:36:17.929084
++fetched: 2026-06-21T06:39:38.834457
+ ---
+ 
+ # Framework Documentation
+
+
+=== docs-projects.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Projects Overview
+ source: vercel
+ url: https://vercel.com/docs/projects
+-fetched: 2026-06-21T06:36:15.522492
++fetched: 2026-06-21T06:39:36.497766
+ ---
+ 
+ # Projects Overview
+
+
+=== docs-rest-api.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Vercel REST API Reference
+ source: vercel
+ url: https://vercel.com/docs/rest-api
+-fetched: 2026-06-21T06:36:16.303028
++fetched: 2026-06-21T06:39:37.298172
+ ---
+ 
+ # Vercel REST API Reference
+
+
+=== docs-security.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Security Documentation
+ source: vercel
+ url: https://vercel.com/docs/security
+-fetched: 2026-06-21T06:36:17.137293
++fetched: 2026-06-21T06:39:38.034182
+ ---
+ 
+ # Security Documentation
+
+
+=== docs.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Docs Home — Ship anything with Vercel
+ source: vercel
+ url: https://vercel.com/docs
+-fetched: 2026-06-21T06:36:12.512325
++fetched: 2026-06-21T06:39:33.778264
+ ---
+ 
+ # Docs Home — Ship anything with Vercel
+
+
+=== docs-cli.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Vercel CLI — Overview & Commands
+ source: vercel
+ url: https://vercel.com/docs/cli
+-fetched: 2026-06-21T06:36:13.598845
++fetched: 2026-06-21T06:39:34.814926
+ ---
+ 
+ # Vercel CLI — Overview & Commands
+
+
+=== docs-deployments.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Deploying to Vercel
+ source: vercel
+ url: https://vercel.com/docs/deployments
+-fetched: 2026-06-21T06:36:14.680660
++fetched: 2026-06-21T06:39:35.582671
+ ---
+ 
+ # Deploying to Vercel
+
+
+=== docs-frameworks.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Framework Documentation
+ source: vercel
+ url: https://vercel.com/docs/frameworks
+-fetched: 2026-06-21T06:36:17.929084
++fetched: 2026-06-21T06:39:38.834457
+ ---
+ 
+ # Framework Documentation
+
+
+=== docs-projects.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Projects Overview
+ source: vercel
+ url: https://vercel.com/docs/projects
+-fetched: 2026-06-21T06:36:15.522492
++fetched: 2026-06-21T06:39:36.497766
+ ---
+ 
+ # Projects Overview
+
+
+=== docs-rest-api.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Vercel REST API Reference
+ source: vercel
+ url: https://vercel.com/docs/rest-api
+-fetched: 2026-06-21T06:36:16.303028
++fetched: 2026-06-21T06:39:37.298172
+ ---
+ 
+ # Vercel REST API Reference
+
+
+=== docs-security.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Security Documentation
+ source: vercel
+ url: https://vercel.com/docs/security
+-fetched: 2026-06-21T06:36:17.137293
++fetched: 2026-06-21T06:39:38.034182
+ ---
+ 
+ # Security Documentation
+
+
+=== docs.md ===
+--- v20260621_063618
++++ v20260621_063939
+@@ -2,7 +2,7 @@
+ title: Docs Home — Ship anything with Vercel
+ source: vercel
+ url: https://vercel.com/docs
+-fetched: 2026-06-21T06:36:12.512325
++fetched: 2026-06-21T06:39:33.778264
+ ---
+ 
+ # Docs Home — Ship anything with Vercel

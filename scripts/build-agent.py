@@ -3,7 +3,7 @@
 build-agent.py — Create stripped, token-efficient copies of docs for LLM consumption.
 
 Strips frontmatter, fluff paragraphs, nav references, and excessive whitespace.
-Files are saved to agent/<source>/ — typically ~40-60% smaller than human/ versions.
+Files are saved to <source>/agent/ — typically ~40-60% smaller than <source>/human/ versions.
 """
 
 import os
@@ -53,8 +53,9 @@ def strip_for_agent(content):
 
 def process_source(source_name):
     """Process all pages for a source."""
-    human_dir = ROOT / 'human' / source_name
-    agent_dir = ROOT / 'agent' / source_name
+    source_dir = ROOT / source_name
+    human_dir = source_dir / 'human'
+    agent_dir = source_dir / 'agent'
     agent_dir.mkdir(parents=True, exist_ok=True)
 
     if not human_dir.exists():
@@ -90,9 +91,10 @@ def main():
     sources = sys.argv[1:]
     if not sources:
         # Process all sources that have human/ content
-        human_root = ROOT / 'human'
-        if human_root.exists():
-            sources = [d.name for d in human_root.iterdir() if d.is_dir()]
+        sources = [
+            d.name for d in ROOT.iterdir()
+            if d.is_dir() and (d / 'human').exists() and not d.name.startswith('.')
+        ]
 
     if not sources:
         print("No sources found to process")

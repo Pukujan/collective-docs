@@ -8,24 +8,24 @@ here first before going online.
 
 | Tool | Status | Last Updated | Pages |
 |------|--------|-------------|-------|
-| ✨ [Hermes Agent](human/hermes/) | Active | — | — |
-| 🔧 [OpenCode](human/opencode/) | Pending | — | — |
-| 🤖 [DeepSeek](human/deepseek/) | Pending | — | — |
+| ✨ [Hermes Agent](hermes/human/) | Active | — | — |
+| 🔧 [OpenCode](opencode/human/) | Pending | — | — |
+| 🤖 [DeepSeek](deepseek/human/) | Pending | — | — |
 
 ## 🏗 Structure
 
 ```
 collective-docs/
-├── human/          # Full, human-readable markdown
-├── agent/          # Stripped, token-efficient markdown for LLMs
-├── versions/       # Last 5 full snapshots per source
-├── diffs/          # All version-to-version diffs (keep forever)
-├── search/         # FTS5 keyword + vector semantic search
-├── summaries/      # Per-update changelogs
-├── cross-refs/     # Inter-source relationship links
-├── status/         # Health and freshness tracking
-├── sources/        # YAML configs driving the updates
-└── scripts/        # Fetch, build, index, diff machinery
+├── <source>/human/      # Full, human-readable markdown
+├── <source>/agent/      # Stripped, token-efficient markdown for LLMs
+├── <source>/versions/   # Last 5 full snapshots per source
+├── <source>/diffs/      # All version-to-version diffs (keep forever)
+├── <source>/summaries/  # Per-update changelogs
+├── search/              # FTS5 keyword + vector semantic search
+├── cross-refs/          # Inter-source relationship links
+├── status/              # Health and freshness tracking
+├── sources/             # YAML configs driving the updates
+└── scripts/             # Fetch, build, index, diff machinery
 ```
 
 ## 🔍 Searching
@@ -38,7 +38,7 @@ python search/search.py --keyword "rate limit"
 python search/search.py --semantic "how do I configure providers"
 
 # Full-text grep
-rg -i "api key" agent/
+rg -i "api key" */agent/
 ```
 
 ## 🔄 Auto-Updates
